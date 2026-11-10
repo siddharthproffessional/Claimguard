@@ -13,7 +13,7 @@ const ORDER = ["orchestrator", "intake", "eligibility", "documentation", "coding
 
 export default function CommandCentre() {
   const live = useLive();
-  const { data: a } = useLiveQuery(api.analytics, [], 1500);
+  const { data: a, reload } = useLiveQuery(api.analytics, [], 1500);
   const [health, setHealth] = useState<any>(null);
   const [depth, setDepth] = useState("synthesis");
   const [mode, setMode] = useState("manual");
@@ -23,13 +23,16 @@ export default function CommandCentre() {
   useEffect(() => { api.health().then((h) => { setHealth(h); if (!h.claude_configured && !h.openai_configured) setDepth("none"); }); }, []);
 
   const sim = live.simulation;
-  const running = !!sim && !["completed", "failed"].includes(sim.phase ?? "") && !!sim.phase;
+  const running = busy || (!!sim && !["completed", "failed"].includes(sim.phase ?? "") && !!sim.phase);
   const start = async () => {
     setErr(null); setBusy(true);
-    try { await api.runSimulation({ seed, ai_depth: depth, operator_mode: mode }); } catch (e: any) { setErr(e.message); }
-    setBusy(false);
+    try {
+      const r = await api.runSimulation({ seed, ai_depth: depth, operator_mode: mode });
+      if (r.status === "failed") setErr(r.error || "Simulation failed");
+    } catch (e: any) { setErr(e.message); }
+    setBusy(false); reload();
   };
-  const reset = async () => { setErr(null); try { await api.loadDemo(seed); } catch (e: any) { setErr(e.message); } };
+  const reset = async () => { setErr(null); try { await api.loadDemo(seed); reload(); } catch (e: any) { setErr(e.message); } };
 
   const now = a?.status_now ?? {};
   const init = a?.status_initial ?? {};

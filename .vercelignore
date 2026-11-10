@@ -1,0 +1,6 @@
+backend/tests
+backend/*.db
+data
+demo
+docs
+frontend/node_modules

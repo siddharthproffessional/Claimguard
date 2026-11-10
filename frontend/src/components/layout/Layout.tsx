@@ -18,7 +18,7 @@ const ROLES = [
 ];
 
 export default function Layout() {
-  const { connected } = useLive();
+  const { connected, mode } = useLive();
   const [id, setId] = useState(getIdentity());
   const [health, setHealth] = useState<any>(null);
   useEffect(() => { api.health().then(setHealth).catch(() => setHealth(null)); }, [connected]);
@@ -56,7 +56,7 @@ export default function Layout() {
           </div>
           <div className="space-y-1 text-[11px]">
             <div className="flex items-center gap-1.5">{connected ? <Wifi className="h-3 w-3 text-teal-400" /> : <WifiOff className="h-3 w-3 text-rose-400" />}
-              {connected ? "Live stream connected" : "Live stream offline"}</div>
+              {connected ? (mode === "polling" ? "Live updates (polling)" : "Live stream connected") : "Live stream offline"}</div>
             <Provider label="Claude" on={health?.claude_configured} detail={health?.claude_model} />
             <Provider label="OpenAI reviewer" on={health?.openai_configured} detail={health?.openai_model} />
           </div>

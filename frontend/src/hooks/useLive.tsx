@@ -1,9 +1,10 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
-import { wsUrl } from "@/services/api";
+import { apiBase, wsUrl } from "@/services/api";
 import type { LiveEvent } from "@/types";
 
 interface LiveState {
   connected: boolean;
+  mode: "websocket" | "polling";
   agentStatus: Record<string, { status: string; claim_id: string | null }>;
   feed: LiveEvent[];
   simulation: { simulation_id?: string; phase?: string; processed?: number; total?: number; error?: string } | null;
@@ -14,7 +15,7 @@ const Ctx = createContext<LiveState | null>(null);
 const FEED_TYPES = new Set(["agent_message", "conflict", "audit", "agent_run", "tool_call"]);
 
 export function LiveProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<LiveState>({ connected: false, agentStatus: {}, feed: [], simulation: null, tick: 0,
+  const [state, setState] = useState<LiveState>({ connected: false, mode: "websocket", agentStatus: {}, feed: [], simulation: null, tick: 0,
     counters: { tool_call: 0, agent_message: 0, agent_run: 0, conflict: 0 } });
   const pending = useRef<LiveEvent[]>([]);
   const dirty = useRef(false);
@@ -40,16 +41,49 @@ export function LiveProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    let ws: WebSocket | null = null; let closed = false; let retry: number | undefined;
+    let ws: WebSocket | null = null; let closed = false; let retry: number | undefined; let poll: number | undefined;
+    let everOpened = false; let last = 0; let instance = "";
+
+    const applyStatus = (list: any[]) => {
+      const agentStatus: LiveState["agentStatus"] = {};
+      for (const a of list) agentStatus[a.agent] = { status: a.status, claim_id: a.claim_id };
+      return agentStatus;
+    };
+
+    // Fallback for hosts without WebSockets (e.g. Vercel functions): poll the event buffer.
+    const startPolling = () => {
+      setState((s) => ({ ...s, mode: "polling" }));
+      const tick = async () => {
+        try {
+          const r = await fetch(`${apiBase()}/api/events?after=${last}`);
+          const j = await r.json();
+          if (j.instance !== instance) { instance = j.instance; last = 0; dirty.current = true; }
+          for (const e of j.events as LiveEvent[]) {
+            if (e.seq <= last) continue;
+            pending.current.push(e);
+            if (["claim_status", "dataset_loaded", "simulation"].includes(e.type)) dirty.current = true;
+          }
+          last = Math.max(last, j.last ?? last);
+          const agentStatus = applyStatus(j.agent_status);
+          setState((s) => ({ ...s, connected: true, agentStatus: { ...s.agentStatus, ...agentStatus } }));
+        } catch { setState((s) => ({ ...s, connected: false })); }
+        if (!closed) poll = window.setTimeout(tick, 800);
+      };
+      tick();
+    };
+
     const connect = () => {
-      ws = new WebSocket(wsUrl());
-      ws.onopen = () => setState((s) => ({ ...s, connected: true }));
-      ws.onclose = () => { setState((s) => ({ ...s, connected: false })); if (!closed) retry = window.setTimeout(connect, 1500); };
+      try { ws = new WebSocket(wsUrl()); } catch { startPolling(); return; }
+      ws.onopen = () => { everOpened = true; setState((s) => ({ ...s, connected: true, mode: "websocket" })); };
+      ws.onclose = () => {
+        setState((s) => ({ ...s, connected: false }));
+        if (closed) return;
+        if (!everOpened) startPolling(); else retry = window.setTimeout(connect, 1500);
+      };
       ws.onmessage = (m) => {
         const msg = JSON.parse(m.data);
         if (msg.type === "hello") {
-          const agentStatus: LiveState["agentStatus"] = {};
-          for (const a of msg.agent_status) agentStatus[a.agent] = { status: a.status, claim_id: a.claim_id };
+          const agentStatus = applyStatus(msg.agent_status);
           setState((s) => ({ ...s, agentStatus, feed: msg.recent.filter((e: LiveEvent) => FEED_TYPES.has(e.type)).reverse().slice(0, 200) }));
           return;
         }
@@ -61,7 +95,7 @@ export function LiveProvider({ children }: { children: ReactNode }) {
     };
     connect();
     const iv = window.setInterval(flush, 250);
-    return () => { closed = true; window.clearTimeout(retry); window.clearInterval(iv); ws?.close(); };
+    return () => { closed = true; window.clearTimeout(retry); window.clearTimeout(poll); window.clearInterval(iv); ws?.close(); };
   }, [flush]);
 
   return <Ctx.Provider value={state}>{children}</Ctx.Provider>;

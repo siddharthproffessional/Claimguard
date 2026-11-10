@@ -17,7 +17,7 @@ AGENT_KEYS = ["orchestrator", "intake", "eligibility", "documentation", "coding"
 class EventBus:
     def __init__(self):
         self.subscribers: set[asyncio.Queue] = set()
-        self.recent = deque(maxlen=2000)
+        self.recent = deque(maxlen=8000)
         self._seq = itertools.count(1)
         self.reset_status()
 

@@ -17,14 +17,7 @@ from app.services.events import bus
 
 @asynccontextmanager
 async def lifespan(app):
-    database.init_db()
-    s = database.SessionLocal()
-    try:
-        if s.query(m.Claim).count() == 0:
-            from app.simulation.benchmark import load_demo
-            load_demo(s, 42)
-    finally:
-        s.close()
+    database.ensure_ready()
     yield
 
 

@@ -43,7 +43,9 @@ class Settings:
         self.reload()
 
     def reload(self):
-        self.database_url = os.getenv("DATABASE_URL", f"sqlite:///{ROOT / 'backend' / 'claimguard.db'}")
+        self.serverless = bool(os.getenv("VERCEL"))
+        default_db = "sqlite:////tmp/claimguard.db" if self.serverless else f"sqlite:///{ROOT / 'backend' / 'claimguard.db'}"
+        self.database_url = os.getenv("DATABASE_URL", default_db)
         self.anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "")
         self.anthropic_base_url = os.getenv("CLAIMGUARD_ANTHROPIC_URL", "https://api.anthropic.com")
         self.claude_model_orchestrator = os.getenv("CLAUDE_MODEL_ORCHESTRATOR", "claude-fable-5-2")

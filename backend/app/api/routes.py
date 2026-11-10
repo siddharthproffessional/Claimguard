@@ -22,6 +22,7 @@ from app.validation.engine import RULE_META, RULES
 
 router = APIRouter(prefix="/api")
 _running: set = set()
+INSTANCE = __import__("uuid").uuid4().hex[:8]
 
 
 def actor_headers(x_actor: str | None = Header(default=None), x_role: str | None = Header(default=None)):
@@ -57,9 +58,17 @@ def _validation(db, c):
 
 @router.get("/health")
 def health():
-    return {"status": "ok", "claude_configured": settings.claude_enabled, "openai_configured": settings.openai_enabled,
+    return {"status": "ok", "instance": INSTANCE, "serverless": settings.serverless, "claude_configured": settings.claude_enabled, "openai_configured": settings.openai_enabled,
             "ai_depth": settings.effective_depth(), "claude_model": settings.claude_model_orchestrator,
             "openai_model": settings.openai_model or None}
+
+
+@router.get("/events")
+def events(after: int = 0):
+    """Polling fallback for hosts without WebSockets (e.g. Vercel functions)."""
+    evs = [e for e in bus.recent if e["seq"] > after]
+    return {"instance": INSTANCE, "agent_status": list(bus.agent_status.values()), "events": evs[-3000:],
+            "last": bus.recent[-1]["seq"] if bus.recent else after}
 
 
 @router.post("/demo/load")
@@ -204,6 +213,12 @@ async def run_simulation(body: SimulationRequest, db=Depends(get_db)):
         finally:
             _running.discard(sim.id)
 
+    if settings.serverless:
+        # No background work survives the response on serverless hosts, so run to completion here.
+        await go()
+        db.expire_all()
+        done = db.get(m.SimulationRun, sim.id)
+        return {"simulation_id": sim.id, "status": done.status, "config": sim.config, "error": done.error}
     asyncio.create_task(go())
     return {"simulation_id": sim.id, "status": "running", "config": sim.config}
 

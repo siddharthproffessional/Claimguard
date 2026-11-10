@@ -224,7 +224,7 @@ async def run_simulation(sim_id: str, seed: int = 42, depth: str | None = None, 
                   f"Simulation complete: baseline detected {baseline['issues_detected']}/{baseline['labelled_issues']} labelled issues, "
                   f"ClaimGuard {cg['issues_detected']}/{cg['labelled_issues']}", {"simulation_id": sim_id})
         db.commit()
-        out = Path(os.getenv("CLAIMGUARD_RESULTS_DIR", ROOT / "demo" / "results"))
+        out = Path(os.getenv("CLAIMGUARD_RESULTS_DIR", "/tmp/claimguard_results" if settings.serverless else ROOT / "demo" / "results"))
         out.mkdir(parents=True, exist_ok=True)
         (out / f"simulation_{sim_id}.json").write_text(json.dumps(results, indent=2))
         bus.publish("simulation", simulation_id=sim_id, phase="completed", processed=total, total=total)

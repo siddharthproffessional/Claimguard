@@ -46,6 +46,8 @@ export const api = {
   rules: () => req<any>("/api/rules"),
 };
 
+export const apiBase = () => BASE;
+
 export const wsUrl = () => {
   if (BASE) return BASE.replace(/^http/, "ws") + "/ws/claimguard";
   return `${location.protocol === "https:" ? "wss" : "ws"}://${location.host}/ws/claimguard`;
