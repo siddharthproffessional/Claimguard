@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: claimguard-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        sync: false
+      - key: AI_DEPTH
+        value: synthesis
+      - key: CORS_ORIGINS
+        value: "*"

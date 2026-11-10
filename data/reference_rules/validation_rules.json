@@ -1,0 +1,146 @@
+[
+  {
+    "rule_id": "COMP-001",
+    "name": "Mandatory claim fields complete",
+    "dimension": "compliance",
+    "severity": "high",
+    "agent": "intake",
+    "description": "Patient, provider, payer, service date, place of service and at least one coded line are present."
+  },
+  {
+    "rule_id": "COMP-002",
+    "name": "Claim dates are logical",
+    "dimension": "compliance",
+    "severity": "medium",
+    "agent": "intake",
+    "description": "Service date is not after the submission date."
+  },
+  {
+    "rule_id": "ELIG-001",
+    "name": "Patient identifiers present",
+    "dimension": "eligibility",
+    "severity": "high",
+    "agent": "eligibility",
+    "description": "Member ID and date of birth are present on the claim."
+  },
+  {
+    "rule_id": "ELIG-002",
+    "name": "Policy identifier matches registry",
+    "dimension": "eligibility",
+    "severity": "high",
+    "agent": "eligibility",
+    "description": "Policy number on the claim matches a policy held by the patient with the billed payer."
+  },
+  {
+    "rule_id": "ELIG-003",
+    "name": "Coverage active on date of service",
+    "dimension": "eligibility",
+    "severity": "critical",
+    "agent": "eligibility",
+    "description": "Policy dates are valid and cover the date of service."
+  },
+  {
+    "rule_id": "ELIG-004",
+    "name": "Patient details match registry",
+    "dimension": "eligibility",
+    "severity": "high",
+    "agent": "eligibility",
+    "description": "Member ID and date of birth on the claim agree with the patient registry."
+  },
+  {
+    "rule_id": "DOC-001",
+    "name": "Required documents attached",
+    "dimension": "documentation",
+    "severity": "high",
+    "agent": "documentation",
+    "description": "Every document type the payer rule requires for the billed service is attached."
+  },
+  {
+    "rule_id": "DOC-002",
+    "name": "Documents consistent with claim",
+    "dimension": "documentation",
+    "severity": "critical",
+    "agent": "documentation",
+    "description": "Attached documents belong to the patient and name the billed procedure."
+  },
+  {
+    "rule_id": "COD-001",
+    "name": "Diagnosis codes valid",
+    "dimension": "coding",
+    "severity": "high",
+    "agent": "coding",
+    "description": "Every diagnosis code exists in the synthetic reference dataset."
+  },
+  {
+    "rule_id": "COD-002",
+    "name": "Procedure codes valid",
+    "dimension": "coding",
+    "severity": "high",
+    "agent": "coding",
+    "description": "Every procedure code exists in the synthetic reference dataset."
+  },
+  {
+    "rule_id": "COD-003",
+    "name": "Diagnosis supports procedure",
+    "dimension": "coding",
+    "severity": "high",
+    "agent": "coding",
+    "description": "At least one diagnosis on each line is listed as compatible with the procedure in the reference rules."
+  },
+  {
+    "rule_id": "AUTH-001",
+    "name": "Authorization present when required",
+    "dimension": "authorization",
+    "severity": "critical",
+    "agent": "authorization",
+    "description": "Claims for procedures the payer lists as requiring prior authorization reference one."
+  },
+  {
+    "rule_id": "AUTH-002",
+    "name": "Authorization valid for service",
+    "dimension": "authorization",
+    "severity": "critical",
+    "agent": "authorization",
+    "description": "Referenced authorization exists, matches patient and procedure, and covers the date of service."
+  },
+  {
+    "rule_id": "DUP-001",
+    "name": "Claim control number unique",
+    "dimension": "billing",
+    "severity": "critical",
+    "agent": "fraud_duplicate",
+    "description": "No earlier claim carries the same control number."
+  },
+  {
+    "rule_id": "DUP-002",
+    "name": "Billing combination unique",
+    "dimension": "billing",
+    "severity": "critical",
+    "agent": "fraud_duplicate",
+    "description": "No earlier claim has the same patient, provider, service date, procedures and total."
+  },
+  {
+    "rule_id": "BILL-001",
+    "name": "Billing arithmetic consistent",
+    "dimension": "billing",
+    "severity": "medium",
+    "agent": "fraud_duplicate",
+    "description": "Line amounts equal units x unit price and the claim total equals the sum of lines."
+  },
+  {
+    "rule_id": "BILL-002",
+    "name": "Units within reference limit",
+    "dimension": "billing",
+    "severity": "high",
+    "agent": "fraud_duplicate",
+    "description": "Billed units do not exceed the per-claim maximum in the reference dataset."
+  },
+  {
+    "rule_id": "COV-001",
+    "name": "Procedure covered by plan",
+    "dimension": "compliance",
+    "severity": "critical",
+    "agent": "compliance",
+    "description": "Billed procedures are not on the plan's exclusion list."
+  }
+]

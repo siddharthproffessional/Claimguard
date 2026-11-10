@@ -1,0 +1,398 @@
+[
+  {
+    "auth_number": "AUTH-00001",
+    "patient_id": "PT-0001",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-08-14",
+    "valid_to": "2026-10-13",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00002",
+    "patient_id": "PT-0002",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-10-02",
+    "valid_to": "2026-12-01",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00003",
+    "patient_id": "PT-0007",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-10-08",
+    "valid_to": "2026-12-07",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00004",
+    "patient_id": "PT-0008",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP2001",
+    "valid_from": "2026-08-16",
+    "valid_to": "2026-10-15",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00005",
+    "patient_id": "PT-0014",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-08-27",
+    "valid_to": "2026-10-26",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00006",
+    "patient_id": "PT-0018",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-09-28",
+    "valid_to": "2026-11-27",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00007",
+    "patient_id": "PT-0019",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP4001",
+    "valid_from": "2026-10-11",
+    "valid_to": "2026-12-10",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00008",
+    "patient_id": "PT-0021",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP6001",
+    "valid_from": "2026-08-20",
+    "valid_to": "2026-10-19",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00009",
+    "patient_id": "PT-0023",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP2001",
+    "valid_from": "2026-08-14",
+    "valid_to": "2026-10-13",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00010",
+    "patient_id": "PT-0024",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP6002",
+    "valid_from": "2026-10-04",
+    "valid_to": "2026-12-03",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00011",
+    "patient_id": "PT-0031",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP2002",
+    "valid_from": "2026-09-09",
+    "valid_to": "2026-11-08",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00012",
+    "patient_id": "PT-0033",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-08-27",
+    "valid_to": "2026-10-26",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00013",
+    "patient_id": "PT-0036",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-09-07",
+    "valid_to": "2026-11-06",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00014",
+    "patient_id": "PT-0038",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP6002",
+    "valid_from": "2026-10-04",
+    "valid_to": "2026-12-03",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00015",
+    "patient_id": "PT-0040",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-09-28",
+    "valid_to": "2026-11-27",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00016",
+    "patient_id": "PT-0041",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-08-20",
+    "valid_to": "2026-10-19",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00017",
+    "patient_id": "PT-0044",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-09-21",
+    "valid_to": "2026-11-20",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00018",
+    "patient_id": "PT-0045",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-09-01",
+    "valid_to": "2026-10-31",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00019",
+    "patient_id": "PT-0046",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-08-23",
+    "valid_to": "2026-10-22",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00020",
+    "patient_id": "PT-0047",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP4001",
+    "valid_from": "2026-09-16",
+    "valid_to": "2026-11-15",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00021",
+    "patient_id": "PT-0048",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-09-14",
+    "valid_to": "2026-11-13",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00022",
+    "patient_id": "PT-0051",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-09-09",
+    "valid_to": "2026-11-08",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00023",
+    "patient_id": "PT-0052",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-08-17",
+    "valid_to": "2026-10-16",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00024",
+    "patient_id": "PT-0055",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP6001",
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-11-30",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00025",
+    "patient_id": "PT-0056",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP6001",
+    "valid_from": "2026-08-19",
+    "valid_to": "2026-10-18",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00026",
+    "patient_id": "PT-0057",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-08-13",
+    "valid_to": "2026-10-12",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00027",
+    "patient_id": "PT-0058",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-08-23",
+    "valid_to": "2026-10-22",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00031",
+    "patient_id": "PT-0062",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-06-04",
+    "valid_to": "2026-09-13",
+    "status": "expired"
+  },
+  {
+    "auth_number": "AUTH-00032",
+    "patient_id": "PT-0063",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-06-28",
+    "valid_to": "2026-09-29",
+    "status": "expired"
+  },
+  {
+    "auth_number": "AUTH-00033",
+    "patient_id": "PT-0064",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP6001",
+    "valid_from": "2026-05-26",
+    "valid_to": "2026-09-06",
+    "status": "expired"
+  },
+  {
+    "auth_number": "AUTH-00034",
+    "patient_id": "PT-0075",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-09-10",
+    "valid_to": "2026-11-09",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00035",
+    "patient_id": "PT-0076",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-10-03",
+    "valid_to": "2026-12-02",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00036",
+    "patient_id": "PT-0077",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP6001",
+    "valid_from": "2026-09-22",
+    "valid_to": "2026-11-21",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00037",
+    "patient_id": "PT-0078",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP3002",
+    "valid_from": "2026-09-23",
+    "valid_to": "2026-11-22",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00038",
+    "patient_id": "PT-0079",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP2001",
+    "valid_from": "2026-09-09",
+    "valid_to": "2026-11-08",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00039",
+    "patient_id": "PT-0080",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP2002",
+    "valid_from": "2026-09-23",
+    "valid_to": "2026-11-22",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00040",
+    "patient_id": "PT-0083",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP4001",
+    "valid_from": "2026-09-09",
+    "valid_to": "2026-11-08",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00041",
+    "patient_id": "PT-0085",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP2001",
+    "valid_from": "2026-09-13",
+    "valid_to": "2026-11-12",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00042",
+    "patient_id": "PT-0086",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP3001",
+    "valid_from": "2026-09-06",
+    "valid_to": "2026-11-05",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00043",
+    "patient_id": "PT-0087",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP6002",
+    "valid_from": "2026-08-17",
+    "valid_to": "2026-10-16",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00044",
+    "patient_id": "PT-0088",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP2001",
+    "valid_from": "2026-10-06",
+    "valid_to": "2026-12-05",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00045",
+    "patient_id": "PT-0090",
+    "payer_id": "PAY-SOL",
+    "procedure_code": "SP6002",
+    "valid_from": "2026-08-13",
+    "valid_to": "2026-10-12",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00046",
+    "patient_id": "PT-0049",
+    "payer_id": "PAY-NOR",
+    "procedure_code": "SP2002",
+    "valid_from": "2026-09-28",
+    "valid_to": "2026-11-27",
+    "status": "approved"
+  },
+  {
+    "auth_number": "AUTH-00047",
+    "patient_id": "PT-0050",
+    "payer_id": "PAY-MER",
+    "procedure_code": "SP2002",
+    "valid_from": "2026-08-12",
+    "valid_to": "2026-10-11",
+    "status": "approved"
+  }
+]

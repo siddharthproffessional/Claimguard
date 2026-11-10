@@ -1,0 +1,327 @@
+[
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "required_documents",
+    "key": "evaluation",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "evaluation claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "required_documents",
+    "key": "imaging",
+    "value": [
+      "clinical_note",
+      "imaging_order"
+    ],
+    "description": "imaging claims must attach: clinical_note, imaging_order"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "required_documents",
+    "key": "surgery",
+    "value": [
+      "operative_report"
+    ],
+    "description": "surgery claims must attach: operative_report"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "required_documents",
+    "key": "therapy",
+    "value": [
+      "therapy_plan"
+    ],
+    "description": "therapy claims must attach: therapy_plan"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "required_documents",
+    "key": "lab",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "lab claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "required_documents",
+    "key": "diagnostic",
+    "value": [
+      "procedure_report"
+    ],
+    "description": "diagnostic claims must attach: procedure_report"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "required_documents",
+    "key": "diagnostic_minor",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "diagnostic_minor claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "authorization_required",
+    "key": "SP2001",
+    "value": true,
+    "description": "Prior authorization required for SP2001"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "authorization_required",
+    "key": "SP2002",
+    "value": true,
+    "description": "Prior authorization required for SP2002"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "authorization_required",
+    "key": "SP3001",
+    "value": true,
+    "description": "Prior authorization required for SP3001"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "authorization_required",
+    "key": "SP3002",
+    "value": true,
+    "description": "Prior authorization required for SP3002"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "authorization_required",
+    "key": "SP6001",
+    "value": true,
+    "description": "Prior authorization required for SP6001"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "authorization_required",
+    "key": "SP6002",
+    "value": true,
+    "description": "Prior authorization required for SP6002"
+  },
+  {
+    "payer_id": "PAY-MER",
+    "rule_type": "authorization_required",
+    "key": "SP4001",
+    "value": true,
+    "description": "Prior authorization required for SP4001"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "required_documents",
+    "key": "evaluation",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "evaluation claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "required_documents",
+    "key": "imaging",
+    "value": [
+      "clinical_note",
+      "imaging_order"
+    ],
+    "description": "imaging claims must attach: clinical_note, imaging_order"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "required_documents",
+    "key": "surgery",
+    "value": [
+      "operative_report"
+    ],
+    "description": "surgery claims must attach: operative_report"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "required_documents",
+    "key": "therapy",
+    "value": [
+      "therapy_plan"
+    ],
+    "description": "therapy claims must attach: therapy_plan"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "required_documents",
+    "key": "lab",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "lab claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "required_documents",
+    "key": "diagnostic",
+    "value": [
+      "procedure_report"
+    ],
+    "description": "diagnostic claims must attach: procedure_report"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "required_documents",
+    "key": "diagnostic_minor",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "diagnostic_minor claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "authorization_required",
+    "key": "SP2001",
+    "value": true,
+    "description": "Prior authorization required for SP2001"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "authorization_required",
+    "key": "SP2002",
+    "value": true,
+    "description": "Prior authorization required for SP2002"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "authorization_required",
+    "key": "SP3001",
+    "value": true,
+    "description": "Prior authorization required for SP3001"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "authorization_required",
+    "key": "SP3002",
+    "value": true,
+    "description": "Prior authorization required for SP3002"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "authorization_required",
+    "key": "SP6001",
+    "value": true,
+    "description": "Prior authorization required for SP6001"
+  },
+  {
+    "payer_id": "PAY-NOR",
+    "rule_type": "authorization_required",
+    "key": "SP6002",
+    "value": true,
+    "description": "Prior authorization required for SP6002"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "required_documents",
+    "key": "evaluation",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "evaluation claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "required_documents",
+    "key": "imaging",
+    "value": [
+      "clinical_note",
+      "imaging_order"
+    ],
+    "description": "imaging claims must attach: clinical_note, imaging_order"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "required_documents",
+    "key": "surgery",
+    "value": [
+      "operative_report"
+    ],
+    "description": "surgery claims must attach: operative_report"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "required_documents",
+    "key": "therapy",
+    "value": [
+      "therapy_plan"
+    ],
+    "description": "therapy claims must attach: therapy_plan"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "required_documents",
+    "key": "lab",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "lab claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "required_documents",
+    "key": "diagnostic",
+    "value": [
+      "procedure_report"
+    ],
+    "description": "diagnostic claims must attach: procedure_report"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "required_documents",
+    "key": "diagnostic_minor",
+    "value": [
+      "clinical_note"
+    ],
+    "description": "diagnostic_minor claims must attach: clinical_note"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "authorization_required",
+    "key": "SP2001",
+    "value": true,
+    "description": "Prior authorization required for SP2001"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "authorization_required",
+    "key": "SP2002",
+    "value": true,
+    "description": "Prior authorization required for SP2002"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "authorization_required",
+    "key": "SP3001",
+    "value": true,
+    "description": "Prior authorization required for SP3001"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "authorization_required",
+    "key": "SP3002",
+    "value": true,
+    "description": "Prior authorization required for SP3002"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "authorization_required",
+    "key": "SP6001",
+    "value": true,
+    "description": "Prior authorization required for SP6001"
+  },
+  {
+    "payer_id": "PAY-SOL",
+    "rule_type": "authorization_required",
+    "key": "SP6002",
+    "value": true,
+    "description": "Prior authorization required for SP6002"
+  }
+]

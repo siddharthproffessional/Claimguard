@@ -1,0 +1,304 @@
+[
+  {
+    "code": "E11.9",
+    "code_type": "diagnosis",
+    "description": "Type 2 diabetes mellitus without complications",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "I10",
+    "code_type": "diagnosis",
+    "description": "Essential hypertension",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "J45.909",
+    "code_type": "diagnosis",
+    "description": "Asthma, unspecified, uncomplicated",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "M54.50",
+    "code_type": "diagnosis",
+    "description": "Low back pain, unspecified",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "M17.11",
+    "code_type": "diagnosis",
+    "description": "Primary osteoarthritis, right knee",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "M17.12",
+    "code_type": "diagnosis",
+    "description": "Primary osteoarthritis, left knee",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "R51.9",
+    "code_type": "diagnosis",
+    "description": "Headache, unspecified",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "S83.511A",
+    "code_type": "diagnosis",
+    "description": "Sprain of anterior cruciate ligament, right knee, initial encounter",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "K21.9",
+    "code_type": "diagnosis",
+    "description": "Gastro-oesophageal reflux disease without oesophagitis",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "R07.9",
+    "code_type": "diagnosis",
+    "description": "Chest pain, unspecified",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "Z00.00",
+    "code_type": "diagnosis",
+    "description": "General adult medical examination without abnormal findings",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "N39.0",
+    "code_type": "diagnosis",
+    "description": "Urinary tract infection, site not specified",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "H25.11",
+    "code_type": "diagnosis",
+    "description": "Age-related nuclear cataract, right eye",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "G47.33",
+    "code_type": "diagnosis",
+    "description": "Obstructive sleep apnoea",
+    "category": null,
+    "unit_price": null,
+    "max_units": null,
+    "compatible_diagnoses": null
+  },
+  {
+    "code": "SP1001",
+    "code_type": "procedure",
+    "description": "Office visit, established patient (synthetic code)",
+    "category": "evaluation",
+    "unit_price": 140.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "E11.9",
+      "I10",
+      "J45.909",
+      "M54.50",
+      "M17.11",
+      "M17.12",
+      "R51.9",
+      "S83.511A",
+      "K21.9",
+      "R07.9",
+      "Z00.00",
+      "N39.0",
+      "H25.11",
+      "G47.33"
+    ]
+  },
+  {
+    "code": "SP1002",
+    "code_type": "procedure",
+    "description": "Preventive adult examination (synthetic code)",
+    "category": "evaluation",
+    "unit_price": 210.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "Z00.00"
+    ]
+  },
+  {
+    "code": "SP2001",
+    "code_type": "procedure",
+    "description": "MRI knee without contrast (synthetic code)",
+    "category": "imaging",
+    "unit_price": 980.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "M17.11",
+      "M17.12",
+      "S83.511A"
+    ]
+  },
+  {
+    "code": "SP2002",
+    "code_type": "procedure",
+    "description": "CT head without contrast (synthetic code)",
+    "category": "imaging",
+    "unit_price": 760.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "R51.9"
+    ]
+  },
+  {
+    "code": "SP2003",
+    "code_type": "procedure",
+    "description": "Chest X-ray, two views (synthetic code)",
+    "category": "imaging",
+    "unit_price": 95.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "R07.9",
+      "J45.909"
+    ]
+  },
+  {
+    "code": "SP3001",
+    "code_type": "procedure",
+    "description": "Knee arthroscopy (synthetic code)",
+    "category": "surgery",
+    "unit_price": 4200.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "M17.11",
+      "M17.12",
+      "S83.511A"
+    ]
+  },
+  {
+    "code": "SP3002",
+    "code_type": "procedure",
+    "description": "Cataract extraction with lens implant (synthetic code)",
+    "category": "surgery",
+    "unit_price": 3100.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "H25.11"
+    ]
+  },
+  {
+    "code": "SP4001",
+    "code_type": "procedure",
+    "description": "Physical therapy session (synthetic code)",
+    "category": "therapy",
+    "unit_price": 85.0,
+    "max_units": 4,
+    "compatible_diagnoses": [
+      "M54.50",
+      "M17.11",
+      "M17.12",
+      "S83.511A"
+    ]
+  },
+  {
+    "code": "SP5001",
+    "code_type": "procedure",
+    "description": "HbA1c laboratory test (synthetic code)",
+    "category": "lab",
+    "unit_price": 38.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "E11.9"
+    ]
+  },
+  {
+    "code": "SP5002",
+    "code_type": "procedure",
+    "description": "Urinalysis (synthetic code)",
+    "category": "lab",
+    "unit_price": 22.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "N39.0"
+    ]
+  },
+  {
+    "code": "SP6001",
+    "code_type": "procedure",
+    "description": "Overnight sleep study (synthetic code)",
+    "category": "diagnostic",
+    "unit_price": 1350.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "G47.33"
+    ]
+  },
+  {
+    "code": "SP6002",
+    "code_type": "procedure",
+    "description": "Upper GI endoscopy (synthetic code)",
+    "category": "diagnostic",
+    "unit_price": 1650.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "K21.9"
+    ]
+  },
+  {
+    "code": "SP7001",
+    "code_type": "procedure",
+    "description": "Spirometry (synthetic code)",
+    "category": "diagnostic_minor",
+    "unit_price": 70.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "J45.909"
+    ]
+  },
+  {
+    "code": "SP7002",
+    "code_type": "procedure",
+    "description": "Electrocardiogram (synthetic code)",
+    "category": "diagnostic_minor",
+    "unit_price": 55.0,
+    "max_units": 1,
+    "compatible_diagnoses": [
+      "R07.9",
+      "I10"
+    ]
+  }
+]

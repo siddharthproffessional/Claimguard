@@ -1,0 +1,8 @@
+{
+  "name": "Operation Zero Rejection",
+  "description": "100 synthetic claims, full multi-agent pipeline, then baseline comparison.",
+  "request": {"seed": 42, "ai_depth": "synthesis", "operator_mode": "manual"},
+  "deterministic_fallback": {"seed": 42, "ai_depth": "none", "operator_mode": "manual"},
+  "expected_results": "../expected_results/seed42_deterministic_manual.json",
+  "spotlight_claims": {"conflict": "CLM-0028", "ai_only": "CLM-0014", "approve": "CLM-0009", "coder_role": "CLM-0005"}
+}

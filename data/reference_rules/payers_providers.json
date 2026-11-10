@@ -1,0 +1,42 @@
+{
+  "payers": [
+    {
+      "id": "PAY-MER",
+      "name": "Meridian Health Plan (synthetic)"
+    },
+    {
+      "id": "PAY-NOR",
+      "name": "Northgate Mutual (synthetic)"
+    },
+    {
+      "id": "PAY-SOL",
+      "name": "Solara Care (synthetic)"
+    }
+  ],
+  "providers": [
+    {
+      "id": "PRV-001",
+      "name": "Harbourview Orthopaedic Clinic",
+      "npi": "9000000011",
+      "specialty": "Orthopaedics"
+    },
+    {
+      "id": "PRV-002",
+      "name": "Cedar Park Family Practice",
+      "npi": "9000000022",
+      "specialty": "Family Medicine"
+    },
+    {
+      "id": "PRV-003",
+      "name": "Lakeshore Diagnostic Imaging",
+      "npi": "9000000033",
+      "specialty": "Radiology"
+    },
+    {
+      "id": "PRV-004",
+      "name": "Summit Surgical & Specialty Centre",
+      "npi": "9000000044",
+      "specialty": "Multi-specialty"
+    }
+  ]
+}

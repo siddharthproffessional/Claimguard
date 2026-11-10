@@ -1,0 +1,180 @@
+{
+  "seed": 42,
+  "dataset": {
+    "claims": 100,
+    "clean": 36,
+    "with_issues": 64,
+    "labelled_issues": 69,
+    "by_category": {
+      "conflicting_information": 6,
+      "coding_inconsistency": 10,
+      "authorization_issue": 10,
+      "eligibility_mismatch": 10,
+      "missing_documentation": 10,
+      "billing_inconsistency": 8,
+      "coverage_problem": 5,
+      "incomplete_fields": 2,
+      "duplicate_submission": 8
+    },
+    "ai_only_issues": 3
+  },
+  "baseline": {
+    "labelled_issues": 69,
+    "issues_detected": 20,
+    "issues_missed": 49,
+    "issue_recall": 0.2899,
+    "by_category": {
+      "conflicting_information": {
+        "labelled": 6,
+        "detected": 0
+      },
+      "coding_inconsistency": {
+        "labelled": 10,
+        "detected": 7
+      },
+      "authorization_issue": {
+        "labelled": 10,
+        "detected": 0
+      },
+      "eligibility_mismatch": {
+        "labelled": 10,
+        "detected": 3
+      },
+      "missing_documentation": {
+        "labelled": 10,
+        "detected": 0
+      },
+      "billing_inconsistency": {
+        "labelled": 8,
+        "detected": 6
+      },
+      "coverage_problem": {
+        "labelled": 5,
+        "detected": 0
+      },
+      "incomplete_fields": {
+        "labelled": 2,
+        "detected": 2
+      },
+      "duplicate_submission": {
+        "labelled": 8,
+        "detected": 2
+      }
+    },
+    "claims_flagged": 20,
+    "true_positive_claims": 20,
+    "false_positive_claims": 0,
+    "claims_with_issue_not_flagged": 44,
+    "flags_without_matching_label": 0,
+    "rules": [
+      "COMP-001",
+      "ELIG-001",
+      "COD-001",
+      "COD-002",
+      "BILL-001",
+      "DUP-001"
+    ],
+    "correction_proposals": 0,
+    "claims_passed_to_submission": 80,
+    "claims_passed_with_known_issue": 44
+  },
+  "claimguard": {
+    "labelled_issues": 69,
+    "issues_detected": 66,
+    "issues_missed": 3,
+    "issue_recall": 0.9565,
+    "by_category": {
+      "conflicting_information": {
+        "labelled": 6,
+        "detected": 3
+      },
+      "coding_inconsistency": {
+        "labelled": 10,
+        "detected": 10
+      },
+      "authorization_issue": {
+        "labelled": 10,
+        "detected": 10
+      },
+      "eligibility_mismatch": {
+        "labelled": 10,
+        "detected": 10
+      },
+      "missing_documentation": {
+        "labelled": 10,
+        "detected": 10
+      },
+      "billing_inconsistency": {
+        "labelled": 8,
+        "detected": 8
+      },
+      "coverage_problem": {
+        "labelled": 5,
+        "detected": 5
+      },
+      "incomplete_fields": {
+        "labelled": 2,
+        "detected": 2
+      },
+      "duplicate_submission": {
+        "labelled": 8,
+        "detected": 8
+      }
+    },
+    "claims_flagged": 61,
+    "true_positive_claims": 61,
+    "false_positive_claims": 0,
+    "claims_with_issue_not_flagged": 3,
+    "flags_without_matching_label": 0,
+    "status_initial": {
+      "READY": 39,
+      "REQUIRES_CORRECTION": 37,
+      "HUMAN_REVIEW": 24
+    },
+    "unresolved_blocking_initial": 66,
+    "mean_readiness_initial": 92.4,
+    "proposals": {
+      "drafted": 30,
+      "validated": 28,
+      "needs_manual_value": 2,
+      "failed_dry_run": 0
+    },
+    "projected_ready_if_all_validated_proposals_approved": 64,
+    "conflicts": {
+      "detected": 11,
+      "resolved": 11,
+      "escalated": 0
+    },
+    "estimated_manual_minutes": 1000,
+    "agent_runs": 1024,
+    "tool_invocations": 2528,
+    "agent_messages": 1872,
+    "ai": {
+      "depth": "none",
+      "claude_configured": false,
+      "openai_configured": false,
+      "calls": 0,
+      "failures": 0
+    },
+    "operator_mode": "manual",
+    "approvals_applied": 0,
+    "status_final": {
+      "READY": 39,
+      "REQUIRES_CORRECTION": 37,
+      "HUMAN_REVIEW": 24
+    },
+    "unresolved_blocking_final": 66,
+    "mean_readiness_final": 92.4,
+    "human_review_claims": 24,
+    "human_decisions_required": 54
+  },
+  "assumptions": [
+    "Dataset is fully synthetic and generated from a fixed seed; issue mix is designed, not sampled from real claims.",
+    "Ground-truth labels come from the generator. ClaimGuard's rules were written against the same issue taxonomy, so deterministic recall on this dataset is an upper bound, not a field estimate.",
+    "Three labelled issues exist only in free-text notes and can only be found by the Documentation Agent's LLM reading; with AI disabled they are counted as missed.",
+    "Baseline = scrubber running 6 claim-level rules (COMP-001, ELIG-001, COD-001, COD-002, BILL-001, DUP-001), no cross-record checks, no corrections.",
+    "'READY' means all configured deterministic checks pass. It is not payer approval.",
+    "Manual effort minutes are configured synthetic assumptions (EFFORT_MINUTES), not measurements.",
+    "Processing time is wall-clock on this machine and includes LLM latency when AI is enabled."
+  ]
+}

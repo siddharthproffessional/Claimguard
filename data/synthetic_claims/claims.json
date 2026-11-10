@@ -1,0 +1,4135 @@
+[
+  {
+    "control_number": "CCN-552855",
+    "patient_id": "PT-0087",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-8956894",
+    "member_id": "MBR-260053",
+    "patient_dob": "1968-11-09",
+    "service_date": "2026-09-06",
+    "submitted_date": "2026-09-09",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1650.0,
+    "authorization_number": "AUTH-00043",
+    "attached_document_ids": [
+      "DOC-00100"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6002",
+        "diagnosis_codes": [
+          "K21.9"
+        ],
+        "units": 1,
+        "unit_price": 1650.0,
+        "amount": 1650.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "conflicting_information",
+          "rule": "DOC-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0001",
+    "seq": 1
+  },
+  {
+    "control_number": "CCN-994787",
+    "patient_id": "PT-0071",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-5195951",
+    "member_id": "MBR-769975",
+    "patient_dob": "1952-08-12",
+    "service_date": "2026-09-25",
+    "submitted_date": "2026-10-04",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 70.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00079"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP709X",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 70.0,
+        "amount": 70.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0002",
+    "seq": 2
+  },
+  {
+    "control_number": "CCN-728038",
+    "patient_id": "PT-0010",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-6007072",
+    "member_id": "MBR-632342",
+    "patient_dob": "1994-12-09",
+    "service_date": "2026-10-19",
+    "submitted_date": "2026-10-26",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 195.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00012"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      },
+      {
+        "line_no": 2,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "R07.9"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0003",
+    "seq": 3
+  },
+  {
+    "control_number": "CCN-619536",
+    "patient_id": "PT-0059",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2754894",
+    "member_id": "MBR-436653",
+    "patient_dob": "1978-06-14",
+    "service_date": "2026-10-15",
+    "submitted_date": "2026-10-21",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00066"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0004",
+    "seq": 4
+  },
+  {
+    "control_number": "CCN-667296",
+    "patient_id": "PT-0067",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-6512415",
+    "member_id": "MBR-781403",
+    "patient_dob": "1998-05-11",
+    "service_date": "2026-10-26",
+    "submitted_date": "2026-10-28",
+    "place_of_service": "81",
+    "claim_type": "professional",
+    "total_amount": 22.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00074"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP5002",
+        "diagnosis_codes": [
+          "N39.0Z"
+        ],
+        "units": 1,
+        "unit_price": 22.0,
+        "amount": 22.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0005",
+    "seq": 5
+  },
+  {
+    "control_number": "CCN-930884",
+    "patient_id": "PT-0065",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-1732280",
+    "member_id": "MBR-344907",
+    "patient_dob": "1992-04-19",
+    "service_date": "2026-10-13",
+    "submitted_date": "2026-10-17",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 55.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00072"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "I10Z"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0006",
+    "seq": 6
+  },
+  {
+    "control_number": "CCN-156837",
+    "patient_id": "PT-0060",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-7780932",
+    "member_id": "MBR-438977",
+    "patient_dob": "1977-02-11",
+    "service_date": "2026-09-27",
+    "submitted_date": "2026-10-02",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00067"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0007",
+    "seq": 7
+  },
+  {
+    "control_number": "CCN-677057",
+    "patient_id": "PT-0016",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5673212",
+    "member_id": "MBR-542374",
+    "patient_dob": "1960-09-15",
+    "service_date": "2026-10-22",
+    "submitted_date": "2026-10-25",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00018"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "S83.511A"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0008",
+    "seq": 8
+  },
+  {
+    "control_number": "CCN-460455",
+    "patient_id": "PT-0048",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-5081938",
+    "member_id": "MBR-332360",
+    "patient_dob": "1976-01-03",
+    "service_date": "2026-10-04",
+    "submitted_date": "2026-10-12",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00021",
+    "attached_document_ids": [
+      "DOC-00055"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "S83.511A"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0009",
+    "seq": 9
+  },
+  {
+    "control_number": "CCN-372793",
+    "patient_id": "PT-0039",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-8190929",
+    "member_id": "MBR-188025",
+    "patient_dob": "1973-10-19",
+    "service_date": "2026-09-04",
+    "submitted_date": "2026-09-12",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0010",
+    "seq": 10
+  },
+  {
+    "control_number": "CCN-819112",
+    "patient_id": "PT-0072",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-7640518",
+    "member_id": "MBR-123005",
+    "patient_dob": "1984-05-23",
+    "service_date": "2026-10-07",
+    "submitted_date": "2026-10-09",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 95.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00080",
+      "DOC-00081"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2003",
+        "diagnosis_codes": [
+          "M17.11"
+        ],
+        "units": 1,
+        "unit_price": 95.0,
+        "amount": 95.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-003",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0011",
+    "seq": 11
+  },
+  {
+    "control_number": "CCN-487151",
+    "patient_id": "PT-0024",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-2876932",
+    "member_id": "MBR-688153",
+    "patient_dob": "1958-12-15",
+    "service_date": "2026-10-24",
+    "submitted_date": "2026-10-28",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1650.0,
+    "authorization_number": "AUTH-00010",
+    "attached_document_ids": [
+      "DOC-00027"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6002",
+        "diagnosis_codes": [
+          "K21.9"
+        ],
+        "units": 1,
+        "unit_price": 1650.0,
+        "amount": 1650.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0012",
+    "seq": 12
+  },
+  {
+    "control_number": "CCN-851413",
+    "patient_id": "PT-0062",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-2903561",
+    "member_id": "MBR-197736",
+    "patient_dob": "1983-01-18",
+    "service_date": "2026-10-02",
+    "submitted_date": "2026-10-08",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00031",
+    "attached_document_ids": [
+      "DOC-00069"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0013",
+    "seq": 13
+  },
+  {
+    "control_number": "CCN-289179",
+    "patient_id": "PT-0090",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-1440466",
+    "member_id": "MBR-986209",
+    "patient_dob": "1984-04-26",
+    "service_date": "2026-09-02",
+    "submitted_date": "2026-09-08",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1650.0,
+    "authorization_number": "AUTH-00045",
+    "attached_document_ids": [
+      "DOC-00104"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6002",
+        "diagnosis_codes": [
+          "K21.9"
+        ],
+        "units": 1,
+        "unit_price": 1650.0,
+        "amount": 1650.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "conflicting_information",
+          "rule": "AI-NARRATIVE",
+          "detectable": "ai_only",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0014",
+    "seq": 14
+  },
+  {
+    "control_number": "CCN-711878",
+    "patient_id": "PT-0007",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5137722",
+    "member_id": "MBR-377746",
+    "patient_dob": "1973-11-15",
+    "service_date": "2026-10-28",
+    "submitted_date": "2026-11-05",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00003",
+    "attached_document_ids": [
+      "DOC-00008"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0015",
+    "seq": 15
+  },
+  {
+    "control_number": "CCN-322409",
+    "patient_id": "PT-0080",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-5628522",
+    "member_id": "MBR-163491",
+    "patient_dob": "1991-06-18",
+    "service_date": "2026-10-13",
+    "submitted_date": "2026-10-15",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 740.0,
+    "authorization_number": "AUTH-00039",
+    "attached_document_ids": [
+      "DOC-00091",
+      "DOC-00092"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2002",
+        "diagnosis_codes": [
+          "R51.9"
+        ],
+        "units": 1,
+        "unit_price": 760.0,
+        "amount": 760.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0016",
+    "seq": 16
+  },
+  {
+    "control_number": "CCN-509386",
+    "patient_id": "PT-0017",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-4586084",
+    "member_id": "MBR-609231",
+    "patient_dob": "1953-04-06",
+    "service_date": "2026-09-01",
+    "submitted_date": "2026-09-07",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 210.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00019"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1002",
+        "diagnosis_codes": [
+          "Z00.00"
+        ],
+        "units": 1,
+        "unit_price": 210.0,
+        "amount": 210.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0017",
+    "seq": 17
+  },
+  {
+    "control_number": "CCN-340062",
+    "patient_id": "PT-0013",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-4860684",
+    "member_id": "MBR-716886",
+    "patient_dob": "1962-02-11",
+    "service_date": "2026-10-16",
+    "submitted_date": "2026-10-19",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00015"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0018",
+    "seq": 18
+  },
+  {
+    "control_number": "CCN-385577",
+    "patient_id": "PT-0022",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-9874152",
+    "member_id": "MBR-741390",
+    "patient_dob": "1966-03-15",
+    "service_date": "2026-09-17",
+    "submitted_date": "2026-09-23",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 178.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00024"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      },
+      {
+        "line_no": 2,
+        "procedure_code": "SP5001",
+        "diagnosis_codes": [
+          "E11.9"
+        ],
+        "units": 1,
+        "unit_price": 38.0,
+        "amount": 38.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0019",
+    "seq": 19
+  },
+  {
+    "control_number": "CCN-686075",
+    "patient_id": "PT-0034",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-5180853",
+    "member_id": "MBR-152657",
+    "patient_dob": "1962-03-26",
+    "service_date": "2026-09-30",
+    "submitted_date": "2026-10-07",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00038"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0020",
+    "seq": 20
+  },
+  {
+    "control_number": "CCN-996865",
+    "patient_id": "PT-0004",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-7067228",
+    "member_id": "MBR-969693",
+    "patient_dob": "1972-02-18",
+    "service_date": "2026-10-13",
+    "submitted_date": "2026-10-18",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 235.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00004",
+      "DOC-00005"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "E11.9"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      },
+      {
+        "line_no": 2,
+        "procedure_code": "SP2003",
+        "diagnosis_codes": [
+          "R07.9"
+        ],
+        "units": 1,
+        "unit_price": 95.0,
+        "amount": 95.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0021",
+    "seq": 21
+  },
+  {
+    "control_number": "CCN-922733",
+    "patient_id": "PT-0014",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-4594297",
+    "member_id": "MBR-801474",
+    "patient_dob": "1952-09-08",
+    "service_date": "2026-09-16",
+    "submitted_date": "2026-09-25",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00005",
+    "attached_document_ids": [
+      "DOC-00016"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0022",
+    "seq": 22
+  },
+  {
+    "control_number": "CCN-536196",
+    "patient_id": "PT-0086",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-4833486",
+    "member_id": "MBR-550961",
+    "patient_dob": "2002-11-21",
+    "service_date": "2026-09-26",
+    "submitted_date": "2026-09-29",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00042",
+    "attached_document_ids": [
+      "DOC-00099"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "conflicting_information",
+          "rule": "DOC-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0023",
+    "seq": 23
+  },
+  {
+    "control_number": "CCN-591465",
+    "patient_id": "PT-0056",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-3783722",
+    "member_id": "MBR-174878",
+    "patient_dob": "1989-03-09",
+    "service_date": "2026-09-08",
+    "submitted_date": "2026-09-14",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1350.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00063"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6001",
+        "diagnosis_codes": [
+          "G47.33"
+        ],
+        "units": 1,
+        "unit_price": 1350.0,
+        "amount": 1350.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0024",
+    "seq": 24
+  },
+  {
+    "control_number": "CCN-894993",
+    "patient_id": "PT-0047",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-9667560",
+    "member_id": "MBR-682789",
+    "patient_dob": "1969-05-20",
+    "service_date": "2026-10-06",
+    "submitted_date": "2026-10-11",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 340.0,
+    "authorization_number": "AUTH-00020",
+    "attached_document_ids": [
+      "DOC-00054"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP4001",
+        "diagnosis_codes": [
+          "S83.511A"
+        ],
+        "units": 4,
+        "unit_price": 85.0,
+        "amount": 340.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0025",
+    "seq": 25
+  },
+  {
+    "control_number": "CCN-457256",
+    "patient_id": "PT-0051",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-2721135",
+    "member_id": "MBR-768854",
+    "patient_dob": "1983-05-23",
+    "service_date": "2026-09-29",
+    "submitted_date": "2026-10-03",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00022",
+    "attached_document_ids": [
+      "DOC-00058"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-003",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0026",
+    "seq": 26
+  },
+  {
+    "control_number": "CCN-776856",
+    "patient_id": "PT-0020",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-6271130",
+    "member_id": "MBR-373432",
+    "patient_dob": "1987-02-14",
+    "service_date": "2026-10-13",
+    "submitted_date": "2026-10-19",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 55.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00022"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "R07.9"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0027",
+    "seq": 27
+  },
+  {
+    "control_number": "CCN-842411",
+    "patient_id": "PT-0050",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5970190",
+    "member_id": "MBR-205409",
+    "patient_dob": "1965-12-19",
+    "service_date": "2026-09-01",
+    "submitted_date": "2026-09-05",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 760.0,
+    "authorization_number": "AUTH-00047",
+    "attached_document_ids": [
+      "DOC-00109",
+      "DOC-00110"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2002",
+        "diagnosis_codes": [
+          "R51.9"
+        ],
+        "units": 1,
+        "unit_price": 760.0,
+        "amount": 760.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-003",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0028",
+    "seq": 28
+  },
+  {
+    "control_number": "CCN-892280",
+    "patient_id": "PT-0073",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-4189885",
+    "member_id": "MBR-329642",
+    "patient_dob": "1997-04-20",
+    "service_date": "2026-10-14",
+    "submitted_date": "2026-10-18",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 210.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00082"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 210.0,
+        "amount": 210.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-003",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0029",
+    "seq": 29
+  },
+  {
+    "control_number": "CCN-897549",
+    "patient_id": "PT-0011",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5041154",
+    "member_id": "MBR-351083",
+    "patient_dob": "1955-06-27",
+    "service_date": "2026-10-02",
+    "submitted_date": "2026-10-06",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00013"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "N39.0"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0030",
+    "seq": 30
+  },
+  {
+    "control_number": "CCN-808446",
+    "patient_id": "PT-0031",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-4526280",
+    "member_id": "MBR-418635",
+    "patient_dob": "1973-09-27",
+    "service_date": "2026-09-29",
+    "submitted_date": "2026-10-04",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 760.0,
+    "authorization_number": "AUTH-00011",
+    "attached_document_ids": [
+      "DOC-00034",
+      "DOC-00035"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2002",
+        "diagnosis_codes": [
+          "R51.9"
+        ],
+        "units": 1,
+        "unit_price": 760.0,
+        "amount": 760.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0031",
+    "seq": 31
+  },
+  {
+    "control_number": "CCN-126925",
+    "patient_id": "PT-0042",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2921542",
+    "member_id": "MBR-275939",
+    "patient_dob": "1992-05-25",
+    "service_date": "2026-10-08",
+    "submitted_date": "2026-10-14",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0032",
+    "seq": 32
+  },
+  {
+    "control_number": "CCN-173201",
+    "patient_id": "PT-0063",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-3426689",
+    "member_id": "MBR-578975",
+    "patient_dob": "2001-08-16",
+    "service_date": "2026-10-26",
+    "submitted_date": "2026-11-01",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00032",
+    "attached_document_ids": [
+      "DOC-00070"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0033",
+    "seq": 33
+  },
+  {
+    "control_number": "CCN-856086",
+    "patient_id": "PT-0088",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-7892225",
+    "member_id": "MBR-802559",
+    "patient_dob": "1983-01-19",
+    "service_date": "2026-10-26",
+    "submitted_date": "2026-10-28",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 980.0,
+    "authorization_number": "AUTH-00044",
+    "attached_document_ids": [
+      "DOC-00101",
+      "DOC-00102"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2001",
+        "diagnosis_codes": [
+          "M17.11"
+        ],
+        "units": 1,
+        "unit_price": 980.0,
+        "amount": 980.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "conflicting_information",
+          "rule": "AI-NARRATIVE",
+          "detectable": "ai_only",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0034",
+    "seq": 34
+  },
+  {
+    "control_number": "CCN-697347",
+    "patient_id": "PT-0019",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-4117625",
+    "member_id": "MBR-632496",
+    "patient_dob": "1980-09-06",
+    "service_date": "2026-10-31",
+    "submitted_date": "2026-11-05",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 85.0,
+    "authorization_number": "AUTH-00007",
+    "attached_document_ids": [
+      "DOC-00021"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP4001",
+        "diagnosis_codes": [
+          "S83.511A"
+        ],
+        "units": 1,
+        "unit_price": 85.0,
+        "amount": 85.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0035",
+    "seq": 35
+  },
+  {
+    "control_number": "CCN-827712",
+    "patient_id": "PT-0068",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2516313",
+    "member_id": "MBR-338536",
+    "patient_dob": "1963-11-22",
+    "service_date": "2026-09-11",
+    "submitted_date": "2026-09-17",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00075"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "S83.511AZ"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0036",
+    "seq": 36
+  },
+  {
+    "control_number": "CCN-993085",
+    "patient_id": "PT-0045",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-9111724",
+    "member_id": "MBR-745830",
+    "patient_dob": "1959-12-17",
+    "service_date": "2026-09-21",
+    "submitted_date": "2026-09-26",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00018",
+    "attached_document_ids": [
+      "DOC-00052"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0037",
+    "seq": 37
+  },
+  {
+    "control_number": "CCN-528129",
+    "patient_id": "PT-0077",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-2060605",
+    "member_id": "MBR-739717",
+    "patient_dob": "1949-10-18",
+    "service_date": "2026-10-12",
+    "submitted_date": "2026-10-15",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1350.0,
+    "authorization_number": "AUTH-00036",
+    "attached_document_ids": [
+      "DOC-00087"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6001",
+        "diagnosis_codes": [
+          "G47.33"
+        ],
+        "units": 1,
+        "unit_price": 1350.0,
+        "amount": 1350.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coverage_problem",
+          "rule": "COV-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0038",
+    "seq": 38
+  },
+  {
+    "control_number": "CCN-724932",
+    "patient_id": "PT-0081",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-4475523",
+    "member_id": "MBR-970127",
+    "patient_dob": "1956-10-07",
+    "service_date": "2026-10-21",
+    "submitted_date": "2026-10-23",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 185.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00093"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP4001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 2,
+        "unit_price": 85.0,
+        "amount": 170.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0039",
+    "seq": 39
+  },
+  {
+    "control_number": "CCN-879238",
+    "patient_id": "PT-0078",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-3276065",
+    "member_id": "MBR-346205",
+    "patient_dob": "1967-08-04",
+    "service_date": "2026-10-13",
+    "submitted_date": "2026-10-21",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00037",
+    "attached_document_ids": [
+      "DOC-00088"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coverage_problem",
+          "rule": "COV-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0040",
+    "seq": 40
+  },
+  {
+    "control_number": "CCN-465962",
+    "patient_id": "PT-0021",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2677407",
+    "member_id": "MBR-751332",
+    "patient_dob": "1996-02-01",
+    "service_date": "2026-09-09",
+    "submitted_date": "2026-09-12",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1350.0,
+    "authorization_number": "AUTH-00008",
+    "attached_document_ids": [
+      "DOC-00023"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6001",
+        "diagnosis_codes": [
+          "G47.33"
+        ],
+        "units": 1,
+        "unit_price": 1350.0,
+        "amount": 1350.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0041",
+    "seq": 41
+  },
+  {
+    "control_number": "CCN-713762",
+    "patient_id": "PT-0058",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-3939212",
+    "member_id": "MBR-704238",
+    "patient_dob": "1996-11-27",
+    "service_date": "2026-09-12",
+    "submitted_date": "2026-09-20",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00065"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0042",
+    "seq": 42
+  },
+  {
+    "control_number": "CCN-540869",
+    "patient_id": "PT-0030",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-7851696",
+    "member_id": "MBR-631756",
+    "patient_dob": "1990-02-24",
+    "service_date": "2026-09-13",
+    "submitted_date": "2026-09-21",
+    "place_of_service": "81",
+    "claim_type": "professional",
+    "total_amount": 38.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00033"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP5001",
+        "diagnosis_codes": [
+          "E11.9"
+        ],
+        "units": 1,
+        "unit_price": 38.0,
+        "amount": 38.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0043",
+    "seq": 43
+  },
+  {
+    "control_number": "CCN-106814",
+    "patient_id": "PT-0002",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-8038374",
+    "member_id": "MBR-850800",
+    "patient_dob": "1980-10-01",
+    "service_date": "2026-10-22",
+    "submitted_date": "2026-10-26",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00002",
+    "attached_document_ids": [
+      "DOC-00002"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0044",
+    "seq": 44
+  },
+  {
+    "control_number": "CCN-195763",
+    "patient_id": "PT-0057",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-1668752",
+    "member_id": "MBR-184349",
+    "patient_dob": "1980-09-16",
+    "service_date": "2026-09-02",
+    "submitted_date": "2026-09-07",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00064"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0045",
+    "seq": 45
+  },
+  {
+    "control_number": "CCN-145561",
+    "patient_id": "PT-0003",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-7374122",
+    "member_id": "MBR-207175",
+    "patient_dob": "1965-03-07",
+    "service_date": "2026-10-22",
+    "submitted_date": "2026-10-31",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 70.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00003"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7001",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 70.0,
+        "amount": 70.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0046",
+    "seq": 46
+  },
+  {
+    "control_number": "CCN-140605",
+    "patient_id": "PT-0026",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-6573147",
+    "member_id": "MBR-288073",
+    "patient_dob": "1999-03-14",
+    "service_date": "2026-09-25",
+    "submitted_date": "2026-10-04",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 85.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00029"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP4001",
+        "diagnosis_codes": [
+          "M17.11"
+        ],
+        "units": 1,
+        "unit_price": 85.0,
+        "amount": 85.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0047",
+    "seq": 47
+  },
+  {
+    "control_number": "CCN-584714",
+    "patient_id": "PT-0005",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-6960453",
+    "member_id": "MBR-270555",
+    "patient_dob": "1965-08-21",
+    "service_date": "2026-10-11",
+    "submitted_date": "2026-10-19",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 162.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00006"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "R07.9"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      },
+      {
+        "line_no": 2,
+        "procedure_code": "SP5002",
+        "diagnosis_codes": [
+          "N39.0"
+        ],
+        "units": 1,
+        "unit_price": 22.0,
+        "amount": 22.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0048",
+    "seq": 48
+  },
+  {
+    "control_number": "CCN-103717",
+    "patient_id": "PT-0023",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-5213115",
+    "member_id": "MBR-629959",
+    "patient_dob": "1993-06-07",
+    "service_date": "2026-09-03",
+    "submitted_date": "2026-09-10",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 980.0,
+    "authorization_number": "AUTH-00009",
+    "attached_document_ids": [
+      "DOC-00025",
+      "DOC-00026"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 980.0,
+        "amount": 980.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0049",
+    "seq": 49
+  },
+  {
+    "control_number": "CCN-596564",
+    "patient_id": "PT-0041",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-1341919",
+    "member_id": "MBR-359295",
+    "patient_dob": "1997-11-02",
+    "service_date": "2026-09-09",
+    "submitted_date": "2026-09-12",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00016",
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.11"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0050",
+    "seq": 50
+  },
+  {
+    "control_number": "CCN-970914",
+    "patient_id": "PT-0015",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-7897151",
+    "member_id": "MBR-471507",
+    "patient_dob": "1954-02-22",
+    "service_date": "2026-09-26",
+    "submitted_date": "2026-10-05",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 55.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00040"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0051",
+    "seq": 51
+  },
+  {
+    "control_number": "CCN-494468",
+    "patient_id": "PT-0091",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-7724045",
+    "member_id": "MBR-693830",
+    "patient_dob": "1970-01-06",
+    "service_date": "2026-10-18",
+    "submitted_date": "2026-10-26",
+    "place_of_service": null,
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00105"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "incomplete_fields",
+          "rule": "COMP-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0052",
+    "seq": 52
+  },
+  {
+    "control_number": "CCN-566297",
+    "patient_id": "PT-0079",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-5693260",
+    "member_id": "MBR-745558",
+    "patient_dob": "1989-02-27",
+    "service_date": "2026-09-29",
+    "submitted_date": "2026-10-04",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 980.0,
+    "authorization_number": "AUTH-00038",
+    "attached_document_ids": [
+      "DOC-00089",
+      "DOC-00090"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2001",
+        "diagnosis_codes": [
+          "M17.11"
+        ],
+        "units": 1,
+        "unit_price": 980.0,
+        "amount": 980.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coverage_problem",
+          "rule": "COV-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0053",
+    "seq": 53
+  },
+  {
+    "control_number": "CCN-968962",
+    "patient_id": "PT-0044",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-9224219",
+    "member_id": "MBR-113266",
+    "patient_dob": "1990-06-03",
+    "service_date": "2026-10-11",
+    "submitted_date": "2026-10-20",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00017",
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0054",
+    "seq": 54
+  },
+  {
+    "control_number": "CCN-734836",
+    "patient_id": "PT-0085",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-6455706",
+    "member_id": "MBR-388375",
+    "patient_dob": "1986-03-03",
+    "service_date": "2026-10-03",
+    "submitted_date": "2026-10-11",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 980.0,
+    "authorization_number": "AUTH-00041",
+    "attached_document_ids": [
+      "DOC-00097",
+      "DOC-00098"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 980.0,
+        "amount": 980.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "conflicting_information",
+          "rule": "DOC-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0055",
+    "seq": 55
+  },
+  {
+    "control_number": "CCN-885884",
+    "patient_id": "PT-0025",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5186414",
+    "member_id": "MBR-475190",
+    "patient_dob": "1950-05-12",
+    "service_date": "2026-10-10",
+    "submitted_date": "2026-10-14",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 70.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00028"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7001",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 70.0,
+        "amount": 70.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0056",
+    "seq": 56
+  },
+  {
+    "control_number": "CCN-555884",
+    "patient_id": "PT-0009",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2921859",
+    "member_id": "MBR-813328",
+    "patient_dob": "1981-05-18",
+    "service_date": "2026-09-19",
+    "submitted_date": "2026-09-23",
+    "place_of_service": "81",
+    "claim_type": "professional",
+    "total_amount": 22.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00011"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP5002",
+        "diagnosis_codes": [
+          "N39.0"
+        ],
+        "units": 1,
+        "unit_price": 22.0,
+        "amount": 22.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0057",
+    "seq": 57
+  },
+  {
+    "control_number": "CCN-642717",
+    "patient_id": "PT-0012",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-4374754",
+    "member_id": "MBR-322086",
+    "patient_dob": "1983-03-09",
+    "service_date": "2026-09-29",
+    "submitted_date": "2026-10-08",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 55.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00014"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0058",
+    "seq": 58
+  },
+  {
+    "control_number": "CCN-178957",
+    "patient_id": "PT-0075",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-5951651",
+    "member_id": "MBR-369452",
+    "patient_dob": "1981-09-09",
+    "service_date": "2026-09-30",
+    "submitted_date": "2026-10-04",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00034",
+    "attached_document_ids": [
+      "DOC-00085"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coverage_problem",
+          "rule": "COV-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0059",
+    "seq": 59
+  },
+  {
+    "control_number": "CCN-611233",
+    "patient_id": "PT-0046",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-7358358",
+    "member_id": "MBR-697530",
+    "patient_dob": "2004-08-08",
+    "service_date": "2026-09-12",
+    "submitted_date": "2026-09-17",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00019",
+    "attached_document_ids": [
+      "DOC-00053"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0060",
+    "seq": 60
+  },
+  {
+    "control_number": "CCN-308802",
+    "patient_id": "PT-0032",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-6623525",
+    "member_id": "MBR-397571",
+    "patient_dob": "1998-12-06",
+    "service_date": "2026-10-22",
+    "submitted_date": "2026-10-26",
+    "place_of_service": "81",
+    "claim_type": "professional",
+    "total_amount": 38.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00036"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP5001",
+        "diagnosis_codes": [
+          "E11.9"
+        ],
+        "units": 1,
+        "unit_price": 38.0,
+        "amount": 38.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0061",
+    "seq": 61
+  },
+  {
+    "control_number": "CCN-931016",
+    "patient_id": "PT-0069",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-3442255",
+    "member_id": "MBR-493049",
+    "patient_dob": "1998-01-10",
+    "service_date": "2026-10-14",
+    "submitted_date": "2026-10-18",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00076"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP109X",
+        "diagnosis_codes": [
+          "R07.9"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0062",
+    "seq": 62
+  },
+  {
+    "control_number": "CCN-367729",
+    "patient_id": "PT-0070",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-3401116",
+    "member_id": "MBR-621841",
+    "patient_dob": "1987-07-20",
+    "service_date": "2026-09-30",
+    "submitted_date": "2026-10-02",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 95.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00077",
+      "DOC-00078"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP209X",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 95.0,
+        "amount": 95.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0063",
+    "seq": 63
+  },
+  {
+    "control_number": "CCN-665621",
+    "patient_id": "PT-0040",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-5232413",
+    "member_id": "MBR-391773",
+    "patient_dob": "1968-06-25",
+    "service_date": "2026-10-18",
+    "submitted_date": "2026-10-20",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00015",
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.11"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0064",
+    "seq": 64
+  },
+  {
+    "control_number": "CCN-527398",
+    "patient_id": "PT-0036",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-3563646",
+    "member_id": "MBR-342495",
+    "patient_dob": "1982-02-05",
+    "service_date": "2026-09-27",
+    "submitted_date": "2026-10-04",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4300.0,
+    "authorization_number": "AUTH-00013",
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.11"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        },
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0065",
+    "seq": 65
+  },
+  {
+    "control_number": "CCN-254739",
+    "patient_id": "PT-0033",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-4262081",
+    "member_id": "MBR-577538",
+    "patient_dob": "1963-08-20",
+    "service_date": "2026-09-16",
+    "submitted_date": "2026-09-18",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 4200.0,
+    "authorization_number": "AUTH-00012",
+    "attached_document_ids": [
+      "DOC-00037"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 4200.0,
+        "amount": 4200.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0066",
+    "seq": 66
+  },
+  {
+    "control_number": "CCN-428838",
+    "patient_id": "PT-0018",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5977931",
+    "member_id": "MBR-262316",
+    "patient_dob": "1975-12-24",
+    "service_date": "2026-10-18",
+    "submitted_date": "2026-10-20",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00006",
+    "attached_document_ids": [
+      "DOC-00020"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0067",
+    "seq": 67
+  },
+  {
+    "control_number": "CCN-565108",
+    "patient_id": "PT-0084",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-8151684",
+    "member_id": "MBR-602248",
+    "patient_dob": "1977-11-01",
+    "service_date": "2026-10-16",
+    "submitted_date": "2026-10-19",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 595.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00096"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP4001",
+        "diagnosis_codes": [
+          "S83.511A"
+        ],
+        "units": 7,
+        "unit_price": 85.0,
+        "amount": 595.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0068",
+    "seq": 68
+  },
+  {
+    "control_number": "CCN-508930",
+    "patient_id": "PT-0037",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-7381734",
+    "member_id": "MBR-998348",
+    "patient_dob": "1961-07-13",
+    "service_date": "2026-10-19",
+    "submitted_date": "2026-10-27",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 355.0,
+    "authorization_number": null,
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP4001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 3,
+        "unit_price": 85.0,
+        "amount": 255.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        },
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0069",
+    "seq": 69
+  },
+  {
+    "control_number": "CCN-172792",
+    "patient_id": "PT-0027",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-4740036",
+    "member_id": "MBR-960394",
+    "patient_dob": "2000-08-12",
+    "service_date": "2026-09-18",
+    "submitted_date": "2026-09-24",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 55.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00030"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0070",
+    "seq": 70
+  },
+  {
+    "control_number": "CCN-131244",
+    "patient_id": "PT-0001",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2719583",
+    "member_id": "MBR-246316",
+    "patient_dob": "1995-05-08",
+    "service_date": "2026-09-03",
+    "submitted_date": "2026-09-06",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00001",
+    "attached_document_ids": [
+      "DOC-00001"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0071",
+    "seq": 71
+  },
+  {
+    "control_number": "CCN-503457",
+    "patient_id": "PT-0008",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-2839607",
+    "member_id": "MBR-892495",
+    "patient_dob": "1956-09-16",
+    "service_date": "2026-09-05",
+    "submitted_date": "2026-09-13",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 980.0,
+    "authorization_number": "AUTH-00004",
+    "attached_document_ids": [
+      "DOC-00009",
+      "DOC-00010"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2001",
+        "diagnosis_codes": [
+          "S83.511A"
+        ],
+        "units": 1,
+        "unit_price": 980.0,
+        "amount": 980.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0072",
+    "seq": 72
+  },
+  {
+    "control_number": "CCN-661894",
+    "patient_id": "PT-0049",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-4867786",
+    "member_id": "MBR-421517",
+    "patient_dob": "1970-12-15",
+    "service_date": "2026-10-18",
+    "submitted_date": "2026-10-22",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 760.0,
+    "authorization_number": "AUTH-00046",
+    "attached_document_ids": [
+      "DOC-00107",
+      "DOC-00108"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2002",
+        "diagnosis_codes": [
+          "R51.9"
+        ],
+        "units": 1,
+        "unit_price": 760.0,
+        "amount": 760.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-003",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0073",
+    "seq": 73
+  },
+  {
+    "control_number": "CCN-796503",
+    "patient_id": "PT-0029",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-8315831",
+    "member_id": "MBR-146542",
+    "patient_dob": "1972-10-07",
+    "service_date": "2026-09-05",
+    "submitted_date": "2026-09-12",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 70.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00032"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7001",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 70.0,
+        "amount": 70.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0074",
+    "seq": 74
+  },
+  {
+    "control_number": "CCN-852787",
+    "patient_id": "PT-0006",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-6292423",
+    "member_id": "MBR-340174",
+    "patient_dob": "1991-06-27",
+    "service_date": "2026-10-29",
+    "submitted_date": "2026-11-05",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00007"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "M54.50"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0075",
+    "seq": 75
+  },
+  {
+    "control_number": "CCN-590094",
+    "patient_id": "PT-0038",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-7523941",
+    "member_id": "MBR-609232",
+    "patient_dob": "1979-04-09",
+    "service_date": "2026-10-24",
+    "submitted_date": "2026-10-28",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1650.0,
+    "authorization_number": "AUTH-00014",
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6002",
+        "diagnosis_codes": [
+          "K21.9"
+        ],
+        "units": 1,
+        "unit_price": 1650.0,
+        "amount": 1650.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0076",
+    "seq": 76
+  },
+  {
+    "control_number": "CCN-529893",
+    "patient_id": "PT-0066",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-2672884",
+    "member_id": "MBR-205239",
+    "patient_dob": "1956-09-19",
+    "service_date": "2026-09-10",
+    "submitted_date": "2026-09-14",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00073"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "N39.0Z"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0077",
+    "seq": 77
+  },
+  {
+    "control_number": "CCN-683286",
+    "patient_id": "PT-0089",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-9089795",
+    "member_id": "MBR-262246",
+    "patient_dob": "1970-02-19",
+    "service_date": "2026-10-25",
+    "submitted_date": "2026-11-01",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00103"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "conflicting_information",
+          "rule": "AI-NARRATIVE",
+          "detectable": "ai_only",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0078",
+    "seq": 78
+  },
+  {
+    "control_number": "CCN-535686",
+    "patient_id": "PT-0074",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-2512187",
+    "member_id": "MBR-867934",
+    "patient_dob": "1998-08-02",
+    "service_date": "2026-10-18",
+    "submitted_date": "2026-10-22",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 95.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00083",
+      "DOC-00084"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2003",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 95.0,
+        "amount": 95.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coding_inconsistency",
+          "rule": "COD-003",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0079",
+    "seq": 79
+  },
+  {
+    "control_number": "CCN-181247",
+    "patient_id": "PT-0035",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-9130188",
+    "member_id": "MBR-903013",
+    "patient_dob": "1964-04-27",
+    "service_date": "2026-09-29",
+    "submitted_date": "2026-10-05",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 120.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00041"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP2003",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 95.0,
+        "amount": 95.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        },
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0080",
+    "seq": 80
+  },
+  {
+    "control_number": "CCN-728038",
+    "patient_id": "PT-0010",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-6007072",
+    "member_id": "MBR-632342",
+    "patient_dob": "1994-12-09",
+    "service_date": "2026-10-19",
+    "submitted_date": "2026-10-28",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 195.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00012"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "M17.12"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      },
+      {
+        "line_no": 2,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "R07.9"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        },
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0081",
+    "seq": 81
+  },
+  {
+    "control_number": "CCN-439498",
+    "patient_id": "PT-0082",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-1432519",
+    "member_id": "MBR-215266",
+    "patient_dob": "1982-05-26",
+    "service_date": "2026-10-08",
+    "submitted_date": "2026-10-10",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 50.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00094"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7001",
+        "diagnosis_codes": [
+          "J45.909"
+        ],
+        "units": 1,
+        "unit_price": 70.0,
+        "amount": 70.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0082",
+    "seq": 82
+  },
+  {
+    "control_number": "CCN-102805",
+    "patient_id": "PT-0054",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2362099",
+    "member_id": "MBR-377501",
+    "patient_dob": null,
+    "service_date": "2026-09-11",
+    "submitted_date": "2026-09-19",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 210.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00061"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1002",
+        "diagnosis_codes": [
+          "Z00.00"
+        ],
+        "units": 1,
+        "unit_price": 210.0,
+        "amount": 210.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0083",
+    "seq": 83
+  },
+  {
+    "control_number": "CCN-920652",
+    "patient_id": "PT-0043",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-6059717",
+    "member_id": "MBR-206851",
+    "patient_dob": "1993-04-03",
+    "service_date": "2026-10-07",
+    "submitted_date": "2026-10-09",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "missing_documentation",
+          "rule": "DOC-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0084",
+    "seq": 84
+  },
+  {
+    "control_number": "CCN-939482",
+    "patient_id": "PT-0015",
+    "provider_id": "PRV-001",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-7897151",
+    "member_id": "MBR-471507",
+    "patient_dob": "1954-02-22",
+    "service_date": "2026-09-26",
+    "submitted_date": "2026-09-29",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00017"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "E11.9"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0085",
+    "seq": 85
+  },
+  {
+    "control_number": "CCN-448588",
+    "patient_id": "PT-0064",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-9214801",
+    "member_id": "MBR-978157",
+    "patient_dob": "2000-01-10",
+    "service_date": "2026-09-23",
+    "submitted_date": "2026-10-01",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1350.0,
+    "authorization_number": "AUTH-00033",
+    "attached_document_ids": [
+      "DOC-00071"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6001",
+        "diagnosis_codes": [
+          "G47.33"
+        ],
+        "units": 1,
+        "unit_price": 1350.0,
+        "amount": 1350.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0086",
+    "seq": 86
+  },
+  {
+    "control_number": "CCN-863934",
+    "patient_id": "PT-0028",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-3995870",
+    "member_id": "MBR-220944",
+    "patient_dob": "1991-09-11",
+    "service_date": "2026-10-09",
+    "submitted_date": "2026-10-16",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00031"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0087",
+    "seq": 87
+  },
+  {
+    "control_number": "CCN-742412",
+    "patient_id": "PT-0034",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-5180853",
+    "member_id": "MBR-152657",
+    "patient_dob": "1962-03-26",
+    "service_date": "2026-09-30",
+    "submitted_date": "2026-10-08",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 55.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00039"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP7002",
+        "diagnosis_codes": [
+          "I10"
+        ],
+        "units": 1,
+        "unit_price": 55.0,
+        "amount": 55.0
+      }
+    ],
+    "ground_truth": {
+      "clean": true,
+      "issues": []
+    },
+    "id": "CLM-0088",
+    "seq": 88
+  },
+  {
+    "control_number": "CCN-360247",
+    "patient_id": "PT-0052",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-1899411",
+    "member_id": null,
+    "patient_dob": "1955-02-13",
+    "service_date": "2026-09-06",
+    "submitted_date": "2026-09-09",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00023",
+    "attached_document_ids": [
+      "DOC-00059"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0089",
+    "seq": 89
+  },
+  {
+    "control_number": "CCN-185544",
+    "patient_id": "PT-0092",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2425342",
+    "member_id": "MBR-914571",
+    "patient_dob": "1958-06-10",
+    "service_date": "2026-10-14",
+    "submitted_date": "2026-10-20",
+    "place_of_service": null,
+    "claim_type": "professional",
+    "total_amount": 210.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00106"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1002",
+        "diagnosis_codes": [
+          "Z00.00"
+        ],
+        "units": 1,
+        "unit_price": 210.0,
+        "amount": 210.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "incomplete_fields",
+          "rule": "COMP-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0090",
+    "seq": 90
+  },
+  {
+    "control_number": "CCN-769567",
+    "patient_id": "PT-0076",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-8630043",
+    "member_id": "MBR-662636",
+    "patient_dob": "1953-07-01",
+    "service_date": "2026-10-23",
+    "submitted_date": "2026-10-30",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00035",
+    "attached_document_ids": [
+      "DOC-00086"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "coverage_problem",
+          "rule": "COV-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0091",
+    "seq": 91
+  },
+  {
+    "control_number": "CCN-677057",
+    "patient_id": "PT-0016",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5673212",
+    "member_id": "MBR-542374",
+    "patient_dob": "1960-09-15",
+    "service_date": "2026-10-22",
+    "submitted_date": "2026-10-27",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 140.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00018"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "S83.511A"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        },
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0092",
+    "seq": 92
+  },
+  {
+    "control_number": "CCN-130271",
+    "patient_id": "PT-0061",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-3198037",
+    "member_id": "MBR-313446",
+    "patient_dob": "1988-08-25",
+    "service_date": "2026-09-08",
+    "submitted_date": "2026-09-13",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1650.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00068"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6002",
+        "diagnosis_codes": [
+          "K21.9"
+        ],
+        "units": 1,
+        "unit_price": 1650.0,
+        "amount": 1650.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0093",
+    "seq": 93
+  },
+  {
+    "control_number": "CCN-696251",
+    "patient_id": "PT-0053",
+    "provider_id": "PRV-004",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-7381684",
+    "member_id": null,
+    "patient_dob": "1986-10-26",
+    "service_date": "2026-09-20",
+    "submitted_date": "2026-09-22",
+    "place_of_service": "81",
+    "claim_type": "professional",
+    "total_amount": 38.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00060"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP5001",
+        "diagnosis_codes": [
+          "E11.9"
+        ],
+        "units": 1,
+        "unit_price": 38.0,
+        "amount": 38.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "eligibility_mismatch",
+          "rule": "ELIG-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0094",
+    "seq": 94
+  },
+  {
+    "control_number": "CCN-896788",
+    "patient_id": "PT-0009",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-2921859",
+    "member_id": "MBR-813328",
+    "patient_dob": "1981-05-18",
+    "service_date": "2026-09-19",
+    "submitted_date": "2026-09-28",
+    "place_of_service": "81",
+    "claim_type": "professional",
+    "total_amount": 22.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00011"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP5002",
+        "diagnosis_codes": [
+          "N39.0"
+        ],
+        "units": 1,
+        "unit_price": 22.0,
+        "amount": 22.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0095",
+    "seq": 95
+  },
+  {
+    "control_number": "CCN-628313",
+    "patient_id": "PT-0083",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-8990081",
+    "member_id": "MBR-881886",
+    "patient_dob": "1995-07-17",
+    "service_date": "2026-09-29",
+    "submitted_date": "2026-10-04",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 765.0,
+    "authorization_number": "AUTH-00040",
+    "attached_document_ids": [
+      "DOC-00095"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP4001",
+        "diagnosis_codes": [
+          "M54.50"
+        ],
+        "units": 9,
+        "unit_price": 85.0,
+        "amount": 765.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "billing_inconsistency",
+          "rule": "BILL-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0096",
+    "seq": 96
+  },
+  {
+    "control_number": "CCN-285751",
+    "patient_id": "PT-0007",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-MER",
+    "policy_number": "MER-5137722",
+    "member_id": "MBR-377746",
+    "patient_dob": "1973-11-15",
+    "service_date": "2026-10-28",
+    "submitted_date": "2026-11-06",
+    "place_of_service": "24",
+    "claim_type": "professional",
+    "total_amount": 3100.0,
+    "authorization_number": "AUTH-00003",
+    "attached_document_ids": [
+      "DOC-00008"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP3002",
+        "diagnosis_codes": [
+          "H25.11"
+        ],
+        "units": 1,
+        "unit_price": 3100.0,
+        "amount": 3100.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0097",
+    "seq": 97
+  },
+  {
+    "control_number": "CCN-814220",
+    "patient_id": "PT-0032",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-SOL",
+    "policy_number": "SOL-6623525",
+    "member_id": "MBR-397571",
+    "patient_dob": "1998-12-06",
+    "service_date": "2026-10-22",
+    "submitted_date": "2026-10-30",
+    "place_of_service": "81",
+    "claim_type": "professional",
+    "total_amount": 38.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00036"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP5001",
+        "diagnosis_codes": [
+          "E11.9"
+        ],
+        "units": 1,
+        "unit_price": 38.0,
+        "amount": 38.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0098",
+    "seq": 98
+  },
+  {
+    "control_number": "CCN-586490",
+    "patient_id": "PT-0005",
+    "provider_id": "PRV-003",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-6960453",
+    "member_id": "MBR-270555",
+    "patient_dob": "1965-08-21",
+    "service_date": "2026-10-11",
+    "submitted_date": "2026-10-23",
+    "place_of_service": "11",
+    "claim_type": "professional",
+    "total_amount": 162.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00006"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP1001",
+        "diagnosis_codes": [
+          "R07.9"
+        ],
+        "units": 1,
+        "unit_price": 140.0,
+        "amount": 140.0
+      },
+      {
+        "line_no": 2,
+        "procedure_code": "SP5002",
+        "diagnosis_codes": [
+          "N39.0"
+        ],
+        "units": 1,
+        "unit_price": 22.0,
+        "amount": 22.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "duplicate_submission",
+          "rule": "DUP-002",
+          "detectable": "deterministic",
+          "resolvable_in_system": false
+        }
+      ]
+    },
+    "id": "CLM-0099",
+    "seq": 99
+  },
+  {
+    "control_number": "CCN-929683",
+    "patient_id": "PT-0055",
+    "provider_id": "PRV-002",
+    "payer_id": "PAY-NOR",
+    "policy_number": "NOR-8617381",
+    "member_id": "MBR-841296",
+    "patient_dob": "1966-01-08",
+    "service_date": "2026-10-21",
+    "submitted_date": "2026-10-26",
+    "place_of_service": "22",
+    "claim_type": "professional",
+    "total_amount": 1350.0,
+    "authorization_number": null,
+    "attached_document_ids": [
+      "DOC-00062"
+    ],
+    "lines": [
+      {
+        "line_no": 1,
+        "procedure_code": "SP6001",
+        "diagnosis_codes": [
+          "G47.33"
+        ],
+        "units": 1,
+        "unit_price": 1350.0,
+        "amount": 1350.0
+      }
+    ],
+    "ground_truth": {
+      "clean": false,
+      "issues": [
+        {
+          "category": "authorization_issue",
+          "rule": "AUTH-001",
+          "detectable": "deterministic",
+          "resolvable_in_system": true
+        }
+      ]
+    },
+    "id": "CLM-0100",
+    "seq": 100
+  }
+]

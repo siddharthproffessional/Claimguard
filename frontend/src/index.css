@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-slate-100 text-slate-900 antialiased; font-feature-settings: "tnum" 1; }
+.num { font-variant-numeric: tabular-nums; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { @apply bg-slate-300 rounded-full; }
+.feed-enter { animation: feedIn .35s ease-out; }
+@keyframes feedIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }

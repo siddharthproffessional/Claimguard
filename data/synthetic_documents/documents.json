@@ -1,0 +1,1456 @@
+[
+  {
+    "id": "DOC-00001",
+    "patient_id": "PT-0001",
+    "provider_id": "PRV-001",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-03",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0001 | Harbourview Orthopaedic Clinic | Date of service 2026-09-03\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00002",
+    "patient_id": "PT-0002",
+    "provider_id": "PRV-004",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-22",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0002 | Summit Surgical & Specialty Centre | Date of service 2026-10-22\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00003",
+    "patient_id": "PT-0003",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-22",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0003 | Lakeshore Diagnostic Imaging | Date of service 2026-10-22\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Spirometry (SP7001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7001",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00004",
+    "patient_id": "PT-0004",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0004 | Cedar Park Family Practice | Date of service 2026-10-13\nAssessment: Type 2 diabetes mellitus without complications (E11.9).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "E11.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00005",
+    "patient_id": "PT-0004",
+    "provider_id": "PRV-002",
+    "doc_type": "imaging_order",
+    "service_date": "2026-10-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0004 | Cedar Park Family Practice | Date of service 2026-10-13\nAssessment: Chest pain, unspecified (R07.9).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "R07.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00006",
+    "patient_id": "PT-0005",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-11",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0005 | Lakeshore Diagnostic Imaging | Date of service 2026-10-11\nAssessment: Chest pain, unspecified (R07.9).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "R07.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00007",
+    "patient_id": "PT-0006",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0006 | Lakeshore Diagnostic Imaging | Date of service 2026-10-29\nAssessment: Low back pain, unspecified (M54.50).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "M54.50"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00008",
+    "patient_id": "PT-0007",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-28",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0007 | Lakeshore Diagnostic Imaging | Date of service 2026-10-28\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00009",
+    "patient_id": "PT-0008",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-05",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0008 | Cedar Park Family Practice | Date of service 2026-09-05\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "S83.511A"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00010",
+    "patient_id": "PT-0008",
+    "provider_id": "PRV-002",
+    "doc_type": "imaging_order",
+    "service_date": "2026-09-05",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0008 | Cedar Park Family Practice | Date of service 2026-09-05\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "S83.511A"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00011",
+    "patient_id": "PT-0009",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-19",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0009 | Lakeshore Diagnostic Imaging | Date of service 2026-09-19\nAssessment: Urinary tract infection, site not specified (N39.0).\nService documented: Urinalysis (SP5002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP5002",
+      "diagnosis_codes": [
+        "N39.0"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00012",
+    "patient_id": "PT-0010",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-19",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0010 | Cedar Park Family Practice | Date of service 2026-10-19\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00013",
+    "patient_id": "PT-0011",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-02",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0011 | Harbourview Orthopaedic Clinic | Date of service 2026-10-02\nAssessment: Urinary tract infection, site not specified (N39.0).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "N39.0"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00014",
+    "patient_id": "PT-0012",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0012 | Lakeshore Diagnostic Imaging | Date of service 2026-09-29\nAssessment: Essential hypertension (I10).\nService documented: Electrocardiogram (SP7002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7002",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00015",
+    "patient_id": "PT-0013",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-16",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0013 | Cedar Park Family Practice | Date of service 2026-10-16\nAssessment: Essential hypertension (I10).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00016",
+    "patient_id": "PT-0014",
+    "provider_id": "PRV-002",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-16",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0014 | Cedar Park Family Practice | Date of service 2026-09-16\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00017",
+    "patient_id": "PT-0015",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-26",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0015 | Harbourview Orthopaedic Clinic | Date of service 2026-09-26\nAssessment: Type 2 diabetes mellitus without complications (E11.9).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "E11.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00018",
+    "patient_id": "PT-0016",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-22",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0016 | Cedar Park Family Practice | Date of service 2026-10-22\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "S83.511A"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00019",
+    "patient_id": "PT-0017",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-01",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0017 | Harbourview Orthopaedic Clinic | Date of service 2026-09-01\nAssessment: General adult medical examination without abnormal findings (Z00.00).\nService documented: Preventive adult examination (SP1002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1002",
+      "diagnosis_codes": [
+        "Z00.00"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00020",
+    "patient_id": "PT-0018",
+    "provider_id": "PRV-001",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0018 | Harbourview Orthopaedic Clinic | Date of service 2026-10-18\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00021",
+    "patient_id": "PT-0019",
+    "provider_id": "PRV-001",
+    "doc_type": "therapy_plan",
+    "service_date": "2026-10-31",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nTherapy plan of care | Patient ref PT-0019 | Harbourview Orthopaedic Clinic | Date of service 2026-10-31\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: Physical therapy session (SP4001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP4001",
+      "diagnosis_codes": [
+        "S83.511A"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00022",
+    "patient_id": "PT-0020",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0020 | Lakeshore Diagnostic Imaging | Date of service 2026-10-13\nAssessment: Chest pain, unspecified (R07.9).\nService documented: Electrocardiogram (SP7002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7002",
+      "diagnosis_codes": [
+        "R07.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00023",
+    "patient_id": "PT-0021",
+    "provider_id": "PRV-002",
+    "doc_type": "procedure_report",
+    "service_date": "2026-09-09",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0021 | Cedar Park Family Practice | Date of service 2026-09-09\nAssessment: Obstructive sleep apnoea (G47.33).\nService documented: Overnight sleep study (SP6001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6001",
+      "diagnosis_codes": [
+        "G47.33"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00024",
+    "patient_id": "PT-0022",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-17",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0022 | Lakeshore Diagnostic Imaging | Date of service 2026-09-17\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00025",
+    "patient_id": "PT-0023",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-03",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0023 | Harbourview Orthopaedic Clinic | Date of service 2026-09-03\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00026",
+    "patient_id": "PT-0023",
+    "provider_id": "PRV-001",
+    "doc_type": "imaging_order",
+    "service_date": "2026-09-03",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0023 | Harbourview Orthopaedic Clinic | Date of service 2026-09-03\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00027",
+    "patient_id": "PT-0024",
+    "provider_id": "PRV-002",
+    "doc_type": "procedure_report",
+    "service_date": "2026-10-24",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0024 | Cedar Park Family Practice | Date of service 2026-10-24\nAssessment: Gastro-oesophageal reflux disease without oesophagitis (K21.9).\nService documented: Upper GI endoscopy (SP6002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6002",
+      "diagnosis_codes": [
+        "K21.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00028",
+    "patient_id": "PT-0025",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-10",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0025 | Harbourview Orthopaedic Clinic | Date of service 2026-10-10\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Spirometry (SP7001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7001",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00029",
+    "patient_id": "PT-0026",
+    "provider_id": "PRV-002",
+    "doc_type": "therapy_plan",
+    "service_date": "2026-09-25",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nTherapy plan of care | Patient ref PT-0026 | Cedar Park Family Practice | Date of service 2026-09-25\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: Physical therapy session (SP4001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP4001",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00030",
+    "patient_id": "PT-0027",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0027 | Cedar Park Family Practice | Date of service 2026-09-18\nAssessment: Essential hypertension (I10).\nService documented: Electrocardiogram (SP7002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7002",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00031",
+    "patient_id": "PT-0028",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-09",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0028 | Lakeshore Diagnostic Imaging | Date of service 2026-10-09\nAssessment: Essential hypertension (I10).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00032",
+    "patient_id": "PT-0029",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-05",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0029 | Cedar Park Family Practice | Date of service 2026-09-05\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Spirometry (SP7001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7001",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00033",
+    "patient_id": "PT-0030",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0030 | Summit Surgical & Specialty Centre | Date of service 2026-09-13\nAssessment: Type 2 diabetes mellitus without complications (E11.9).\nService documented: HbA1c laboratory test (SP5001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP5001",
+      "diagnosis_codes": [
+        "E11.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00034",
+    "patient_id": "PT-0031",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0031 | Lakeshore Diagnostic Imaging | Date of service 2026-09-29\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00035",
+    "patient_id": "PT-0031",
+    "provider_id": "PRV-003",
+    "doc_type": "imaging_order",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0031 | Lakeshore Diagnostic Imaging | Date of service 2026-09-29\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00036",
+    "patient_id": "PT-0032",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-22",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0032 | Cedar Park Family Practice | Date of service 2026-10-22\nAssessment: Type 2 diabetes mellitus without complications (E11.9).\nService documented: HbA1c laboratory test (SP5001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP5001",
+      "diagnosis_codes": [
+        "E11.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00037",
+    "patient_id": "PT-0033",
+    "provider_id": "PRV-004",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-16",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0033 | Summit Surgical & Specialty Centre | Date of service 2026-09-16\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: Knee arthroscopy (SP3001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00038",
+    "patient_id": "PT-0034",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-30",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0034 | Summit Surgical & Specialty Centre | Date of service 2026-09-30\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00039",
+    "patient_id": "PT-0034",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-30",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0034 | Summit Surgical & Specialty Centre | Date of service 2026-09-30\nAssessment: Essential hypertension (I10).\nService documented: Electrocardiogram (SP7002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7002",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00040",
+    "patient_id": "PT-0015",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-26",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0015 | Harbourview Orthopaedic Clinic | Date of service 2026-09-26\nAssessment: Essential hypertension (I10).\nService documented: Electrocardiogram (SP7002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7002",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00041",
+    "patient_id": "PT-0035",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0035 | Cedar Park Family Practice | Date of service 2026-09-29\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00042",
+    "patient_id": "PT-0035",
+    "provider_id": "PRV-002",
+    "doc_type": "imaging_order",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0035 | Cedar Park Family Practice | Date of service 2026-09-29\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00043",
+    "patient_id": "PT-0036",
+    "provider_id": "PRV-002",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-27",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0036 | Cedar Park Family Practice | Date of service 2026-09-27\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: Knee arthroscopy (SP3001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3001",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00044",
+    "patient_id": "PT-0037",
+    "provider_id": "PRV-001",
+    "doc_type": "therapy_plan",
+    "service_date": "2026-10-19",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nTherapy plan of care | Patient ref PT-0037 | Harbourview Orthopaedic Clinic | Date of service 2026-10-19\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: Physical therapy session (SP4001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP4001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00045",
+    "patient_id": "PT-0038",
+    "provider_id": "PRV-004",
+    "doc_type": "procedure_report",
+    "service_date": "2026-10-24",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0038 | Summit Surgical & Specialty Centre | Date of service 2026-10-24\nAssessment: Gastro-oesophageal reflux disease without oesophagitis (K21.9).\nService documented: Upper GI endoscopy (SP6002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6002",
+      "diagnosis_codes": [
+        "K21.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00046",
+    "patient_id": "PT-0039",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-04",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0039 | Summit Surgical & Specialty Centre | Date of service 2026-09-04\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00047",
+    "patient_id": "PT-0040",
+    "provider_id": "PRV-004",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0040 | Summit Surgical & Specialty Centre | Date of service 2026-10-18\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: Knee arthroscopy (SP3001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3001",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00052",
+    "patient_id": "PT-0045",
+    "provider_id": "PRV-004",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-21",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0045 | Summit Surgical & Specialty Centre | Date of service 2026-09-21\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00053",
+    "patient_id": "PT-0046",
+    "provider_id": "PRV-001",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-12",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0046 | Harbourview Orthopaedic Clinic | Date of service 2026-09-12\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: Knee arthroscopy (SP3001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00054",
+    "patient_id": "PT-0047",
+    "provider_id": "PRV-001",
+    "doc_type": "therapy_plan",
+    "service_date": "2026-10-06",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nTherapy plan of care | Patient ref PT-0047 | Harbourview Orthopaedic Clinic | Date of service 2026-10-06\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: Physical therapy session (SP4001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP4001",
+      "diagnosis_codes": [
+        "S83.511A"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00055",
+    "patient_id": "PT-0048",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-04",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0048 | Lakeshore Diagnostic Imaging | Date of service 2026-10-04\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: Knee arthroscopy (SP3001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3001",
+      "diagnosis_codes": [
+        "S83.511A"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00058",
+    "patient_id": "PT-0051",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0051 | Lakeshore Diagnostic Imaging | Date of service 2026-09-29\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: Knee arthroscopy (SP3001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00059",
+    "patient_id": "PT-0052",
+    "provider_id": "PRV-002",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-06",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0052 | Cedar Park Family Practice | Date of service 2026-09-06\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00060",
+    "patient_id": "PT-0053",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-20",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0053 | Summit Surgical & Specialty Centre | Date of service 2026-09-20\nAssessment: Type 2 diabetes mellitus without complications (E11.9).\nService documented: HbA1c laboratory test (SP5001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP5001",
+      "diagnosis_codes": [
+        "E11.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00061",
+    "patient_id": "PT-0054",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-11",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0054 | Cedar Park Family Practice | Date of service 2026-09-11\nAssessment: General adult medical examination without abnormal findings (Z00.00).\nService documented: Preventive adult examination (SP1002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1002",
+      "diagnosis_codes": [
+        "Z00.00"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00062",
+    "patient_id": "PT-0055",
+    "provider_id": "PRV-002",
+    "doc_type": "procedure_report",
+    "service_date": "2026-10-21",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0055 | Cedar Park Family Practice | Date of service 2026-10-21\nAssessment: Obstructive sleep apnoea (G47.33).\nService documented: Overnight sleep study (SP6001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6001",
+      "diagnosis_codes": [
+        "G47.33"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00063",
+    "patient_id": "PT-0056",
+    "provider_id": "PRV-003",
+    "doc_type": "procedure_report",
+    "service_date": "2026-09-08",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0056 | Lakeshore Diagnostic Imaging | Date of service 2026-09-08\nAssessment: Obstructive sleep apnoea (G47.33).\nService documented: Overnight sleep study (SP6001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6001",
+      "diagnosis_codes": [
+        "G47.33"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00064",
+    "patient_id": "PT-0057",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-02",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0057 | Lakeshore Diagnostic Imaging | Date of service 2026-09-02\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00065",
+    "patient_id": "PT-0058",
+    "provider_id": "PRV-004",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-12",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0058 | Summit Surgical & Specialty Centre | Date of service 2026-09-12\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00066",
+    "patient_id": "PT-0059",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-15",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0059 | Lakeshore Diagnostic Imaging | Date of service 2026-10-15\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00067",
+    "patient_id": "PT-0060",
+    "provider_id": "PRV-001",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-27",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0060 | Harbourview Orthopaedic Clinic | Date of service 2026-09-27\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00068",
+    "patient_id": "PT-0061",
+    "provider_id": "PRV-004",
+    "doc_type": "procedure_report",
+    "service_date": "2026-09-08",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0061 | Summit Surgical & Specialty Centre | Date of service 2026-09-08\nAssessment: Gastro-oesophageal reflux disease without oesophagitis (K21.9).\nService documented: Upper GI endoscopy (SP6002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6002",
+      "diagnosis_codes": [
+        "K21.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00069",
+    "patient_id": "PT-0062",
+    "provider_id": "PRV-001",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-02",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0062 | Harbourview Orthopaedic Clinic | Date of service 2026-10-02\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00070",
+    "patient_id": "PT-0063",
+    "provider_id": "PRV-002",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-26",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0063 | Cedar Park Family Practice | Date of service 2026-10-26\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00071",
+    "patient_id": "PT-0064",
+    "provider_id": "PRV-004",
+    "doc_type": "procedure_report",
+    "service_date": "2026-09-23",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0064 | Summit Surgical & Specialty Centre | Date of service 2026-09-23\nAssessment: Obstructive sleep apnoea (G47.33).\nService documented: Overnight sleep study (SP6001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6001",
+      "diagnosis_codes": [
+        "G47.33"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00072",
+    "patient_id": "PT-0065",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0065 | Summit Surgical & Specialty Centre | Date of service 2026-10-13\nAssessment: Essential hypertension (I10).\nService documented: Electrocardiogram (SP7002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7002",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00073",
+    "patient_id": "PT-0066",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-10",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0066 | Summit Surgical & Specialty Centre | Date of service 2026-09-10\nAssessment: Urinary tract infection, site not specified (N39.0).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "N39.0"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00074",
+    "patient_id": "PT-0067",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-26",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0067 | Summit Surgical & Specialty Centre | Date of service 2026-10-26\nAssessment: Urinary tract infection, site not specified (N39.0).\nService documented: Urinalysis (SP5002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP5002",
+      "diagnosis_codes": [
+        "N39.0"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00075",
+    "patient_id": "PT-0068",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-11",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0068 | Harbourview Orthopaedic Clinic | Date of service 2026-09-11\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": []
+    }
+  },
+  {
+    "id": "DOC-00076",
+    "patient_id": "PT-0069",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-14",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0069 | Summit Surgical & Specialty Centre | Date of service 2026-10-14\nAssessment: Chest pain, unspecified (R07.9).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "R07.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00077",
+    "patient_id": "PT-0070",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-30",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0070 | Summit Surgical & Specialty Centre | Date of service 2026-09-30\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00078",
+    "patient_id": "PT-0070",
+    "provider_id": "PRV-004",
+    "doc_type": "imaging_order",
+    "service_date": "2026-09-30",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0070 | Summit Surgical & Specialty Centre | Date of service 2026-09-30\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00079",
+    "patient_id": "PT-0071",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-25",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0071 | Lakeshore Diagnostic Imaging | Date of service 2026-09-25\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Spirometry (SP7001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": null,
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00080",
+    "patient_id": "PT-0072",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-07",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0072 | Harbourview Orthopaedic Clinic | Date of service 2026-10-07\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00081",
+    "patient_id": "PT-0072",
+    "provider_id": "PRV-001",
+    "doc_type": "imaging_order",
+    "service_date": "2026-10-07",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0072 | Harbourview Orthopaedic Clinic | Date of service 2026-10-07\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00082",
+    "patient_id": "PT-0073",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-14",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0073 | Lakeshore Diagnostic Imaging | Date of service 2026-10-14\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Preventive adult examination (SP1002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00083",
+    "patient_id": "PT-0074",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0074 | Lakeshore Diagnostic Imaging | Date of service 2026-10-18\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00084",
+    "patient_id": "PT-0074",
+    "provider_id": "PRV-003",
+    "doc_type": "imaging_order",
+    "service_date": "2026-10-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0074 | Lakeshore Diagnostic Imaging | Date of service 2026-10-18\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Chest X-ray, two views (SP2003). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2003",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00085",
+    "patient_id": "PT-0075",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-30",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0075 | Lakeshore Diagnostic Imaging | Date of service 2026-09-30\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00086",
+    "patient_id": "PT-0076",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-23",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0076 | Lakeshore Diagnostic Imaging | Date of service 2026-10-23\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00087",
+    "patient_id": "PT-0077",
+    "provider_id": "PRV-004",
+    "doc_type": "procedure_report",
+    "service_date": "2026-10-12",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0077 | Summit Surgical & Specialty Centre | Date of service 2026-10-12\nAssessment: Obstructive sleep apnoea (G47.33).\nService documented: Overnight sleep study (SP6001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP6001",
+      "diagnosis_codes": [
+        "G47.33"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00088",
+    "patient_id": "PT-0078",
+    "provider_id": "PRV-004",
+    "doc_type": "operative_report",
+    "service_date": "2026-10-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0078 | Summit Surgical & Specialty Centre | Date of service 2026-10-13\nAssessment: Age-related nuclear cataract, right eye (H25.11).\nService documented: Cataract extraction with lens implant (SP3002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP3002",
+      "diagnosis_codes": [
+        "H25.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00089",
+    "patient_id": "PT-0079",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0079 | Lakeshore Diagnostic Imaging | Date of service 2026-09-29\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00090",
+    "patient_id": "PT-0079",
+    "provider_id": "PRV-003",
+    "doc_type": "imaging_order",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0079 | Lakeshore Diagnostic Imaging | Date of service 2026-09-29\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00091",
+    "patient_id": "PT-0080",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0080 | Harbourview Orthopaedic Clinic | Date of service 2026-10-13\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00092",
+    "patient_id": "PT-0080",
+    "provider_id": "PRV-001",
+    "doc_type": "imaging_order",
+    "service_date": "2026-10-13",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0080 | Harbourview Orthopaedic Clinic | Date of service 2026-10-13\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00093",
+    "patient_id": "PT-0081",
+    "provider_id": "PRV-002",
+    "doc_type": "therapy_plan",
+    "service_date": "2026-10-21",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nTherapy plan of care | Patient ref PT-0081 | Cedar Park Family Practice | Date of service 2026-10-21\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: Physical therapy session (SP4001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP4001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00094",
+    "patient_id": "PT-0082",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-08",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0082 | Harbourview Orthopaedic Clinic | Date of service 2026-10-08\nAssessment: Asthma, unspecified, uncomplicated (J45.909).\nService documented: Spirometry (SP7001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP7001",
+      "diagnosis_codes": [
+        "J45.909"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00095",
+    "patient_id": "PT-0083",
+    "provider_id": "PRV-003",
+    "doc_type": "therapy_plan",
+    "service_date": "2026-09-29",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nTherapy plan of care | Patient ref PT-0083 | Lakeshore Diagnostic Imaging | Date of service 2026-09-29\nAssessment: Low back pain, unspecified (M54.50).\nService documented: Physical therapy session (SP4001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP4001",
+      "diagnosis_codes": [
+        "M54.50"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00096",
+    "patient_id": "PT-0084",
+    "provider_id": "PRV-001",
+    "doc_type": "therapy_plan",
+    "service_date": "2026-10-16",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nTherapy plan of care | Patient ref PT-0084 | Harbourview Orthopaedic Clinic | Date of service 2026-10-16\nAssessment: Sprain of anterior cruciate ligament, right knee, initial encounter (S83.511A).\nService documented: Physical therapy session (SP4001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP4001",
+      "diagnosis_codes": [
+        "S83.511A"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00097",
+    "patient_id": "PT-0085",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-03",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0085 | Lakeshore Diagnostic Imaging | Date of service 2026-10-03\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00098",
+    "patient_id": "PT-0085",
+    "provider_id": "PRV-003",
+    "doc_type": "imaging_order",
+    "service_date": "2026-10-03",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0085 | Lakeshore Diagnostic Imaging | Date of service 2026-10-03\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00099",
+    "patient_id": "PT-0086",
+    "provider_id": "PRV-003",
+    "doc_type": "operative_report",
+    "service_date": "2026-09-26",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nOperative report | Patient ref PT-0086 | Lakeshore Diagnostic Imaging | Date of service 2026-09-26\nAssessment: Primary osteoarthritis, left knee (M17.12).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00100",
+    "patient_id": "PT-0087",
+    "provider_id": "PRV-001",
+    "doc_type": "procedure_report",
+    "service_date": "2026-09-06",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0087 | Harbourview Orthopaedic Clinic | Date of service 2026-09-06\nAssessment: Gastro-oesophageal reflux disease without oesophagitis (K21.9).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "K21.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00101",
+    "patient_id": "PT-0088",
+    "provider_id": "PRV-004",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-26",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0088 | Summit Surgical & Specialty Centre | Date of service 2026-10-26\nAssessment: Primary osteoarthritis, right knee (M17.11).\nExamination and imaging performed on the LEFT knee. Left knee MRI without contrast completed; right knee not examined at this visit.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00102",
+    "patient_id": "PT-0088",
+    "provider_id": "PRV-004",
+    "doc_type": "imaging_order",
+    "service_date": "2026-10-26",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0088 | Summit Surgical & Specialty Centre | Date of service 2026-10-26\nAssessment: Primary osteoarthritis, right knee (M17.11).\nService documented: MRI knee without contrast (SP2001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2001",
+      "diagnosis_codes": [
+        "M17.11"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00103",
+    "patient_id": "PT-0089",
+    "provider_id": "PRV-001",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-25",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0089 | Harbourview Orthopaedic Clinic | Date of service 2026-10-25\nAssessment: Primary osteoarthritis, left knee (M17.12).\nPatient did not attend the scheduled appointment. No examination was performed and no service was rendered. Visit to be rescheduled.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "M17.12"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00104",
+    "patient_id": "PT-0090",
+    "provider_id": "PRV-003",
+    "doc_type": "procedure_report",
+    "service_date": "2026-09-02",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nProcedure report | Patient ref PT-0090 | Lakeshore Diagnostic Imaging | Date of service 2026-09-02\nAssessment: Gastro-oesophageal reflux disease without oesophagitis (K21.9).\nProcedure was cancelled before sedation because of elevated blood pressure. Endoscopy was not performed. Patient referred back to primary care.",
+    "extracted": {
+      "procedure_code": "SP6002",
+      "diagnosis_codes": [
+        "K21.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00105",
+    "patient_id": "PT-0091",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0091 | Cedar Park Family Practice | Date of service 2026-10-18\nAssessment: Essential hypertension (I10).\nService documented: Office visit, established patient (SP1001). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1001",
+      "diagnosis_codes": [
+        "I10"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00106",
+    "patient_id": "PT-0092",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-14",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0092 | Cedar Park Family Practice | Date of service 2026-10-14\nAssessment: General adult medical examination without abnormal findings (Z00.00).\nService documented: Preventive adult examination (SP1002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP1002",
+      "diagnosis_codes": [
+        "Z00.00"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00107",
+    "patient_id": "PT-0049",
+    "provider_id": "PRV-002",
+    "doc_type": "clinical_note",
+    "service_date": "2026-10-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0049 | Cedar Park Family Practice | Date of service 2026-10-18\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00108",
+    "patient_id": "PT-0049",
+    "provider_id": "PRV-002",
+    "doc_type": "imaging_order",
+    "service_date": "2026-10-18",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0049 | Cedar Park Family Practice | Date of service 2026-10-18\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00109",
+    "patient_id": "PT-0050",
+    "provider_id": "PRV-003",
+    "doc_type": "clinical_note",
+    "service_date": "2026-09-01",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nClinical note | Patient ref PT-0050 | Lakeshore Diagnostic Imaging | Date of service 2026-09-01\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  },
+  {
+    "id": "DOC-00110",
+    "patient_id": "PT-0050",
+    "provider_id": "PRV-003",
+    "doc_type": "imaging_order",
+    "service_date": "2026-09-01",
+    "content": "[SYNTHETIC DOCUMENT - NOT A REAL MEDICAL RECORD]\nImaging order | Patient ref PT-0050 | Lakeshore Diagnostic Imaging | Date of service 2026-09-01\nAssessment: Headache, unspecified (R51.9).\nService documented: CT head without contrast (SP2002). Patient tolerated the service; no complications recorded.",
+    "extracted": {
+      "procedure_code": "SP2002",
+      "diagnosis_codes": [
+        "R51.9"
+      ]
+    }
+  }
+]

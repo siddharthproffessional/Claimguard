@@ -1,0 +1,6 @@
+{
+  "name": "Backup: different claim population",
+  "description": "Same issue mix as seed 42, assigned to different claims. Use if the main data is in a bad state.",
+  "request": {"seed": 7, "ai_depth": "none", "operator_mode": "simulated_approve"},
+  "expected_results": "../expected_results/seed7_backup_deterministic_simulated_operator.json"
+}
